@@ -1,0 +1,13 @@
+﻿global using NorthWind.Sales.Backend.UseCases;
+global using NorthWind.Sales.Backend.Repositories;
+global using Microsoft.Extensions.DependencyInjection;
+global using NorthWind.ValidationService.FluentValidation;
+global using NorthWind.Sales.Validators.Entities;
+global using NorthWind.Exceptions.Entities;
+global using NorthWind.Events.Entities;
+global using NorthWind.Sales.Backend.SmtpGateways;
+global using NorthWind.DomainLogs.Entities;
+global using NorthWind.Transactions.Entities;
+global using NorthWind.UserServices;
+global using NorthWind.Sales.Backend.DataContexts.EFCore;
+global using NorthWind.Sales.Backend.DataContexts.EFCore.Options;

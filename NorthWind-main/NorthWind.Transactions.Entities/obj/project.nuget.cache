@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zMvQkdVDyZ0=",
+  "success": true,
+  "projectFilePath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Transactions.Entities\\NorthWind.Transactions.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

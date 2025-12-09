@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "NorthWind.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NorthWind.Entities/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.Entities/NorthWind.Entities.csproj",
+      "msbuildProject": "../NorthWind.Entities/NorthWind.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "NorthWind.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.UserServices\\NorthWind.UserServices.csproj",
+      "projectName": "NorthWind.UserServices",
+      "projectPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.UserServices\\NorthWind.UserServices.csproj",
+      "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
+      "outputPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.UserServices\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\BAR KARAOKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Movil\\Northwind-Movil\\NorthWind.Packages": {},
+        "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Web\\Northwind\\NorthWind.Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Entities\\NorthWind.Entities.csproj": {
+              "projectPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Entities\\NorthWind.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

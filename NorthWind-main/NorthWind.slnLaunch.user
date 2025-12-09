@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "BlazorWebAPI",
+    "Projects": [
+      {
+        "Path": "Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

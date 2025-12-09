@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JETwfh8Ka9c=",
+  "success": true,
+  "projectFilePath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\NorthWind.Exceptions.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\northwind.validation.entities\\1.0.0\\northwind.validation.entities.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

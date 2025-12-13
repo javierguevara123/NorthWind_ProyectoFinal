@@ -82,18 +82,21 @@ internal class CommandsRepository(INorthWindSalesCommandsDataContext context) : 
         return Task.CompletedTask;
     }
 
-    
+
 
     // CommandsRepository.cs (fragmento a sustituir o añadir)
     public async Task<string> CreateCustomer(Customer customer)
     {
         var sw = Stopwatch.StartNew();
 
-        var entity = new Entities.Customer
+        var entity = new RepoEntities.Customer
         {
             Id = customer.Id,
             Name = customer.Name,
-            CurrentBalance = customer.CurrentBalance
+            CurrentBalance = customer.CurrentBalance,
+            Email = customer.Email,                 // Nuevo
+            Cedula = customer.Cedula,               // Nuevo
+            HashedPassword = customer.HashedPassword // Nuevo
         };
 
         await context.AddAsync(entity);
@@ -104,35 +107,41 @@ internal class CommandsRepository(INorthWindSalesCommandsDataContext context) : 
         return entity.Id;
     }
 
-    public Task UpdateCustomer(Customer customer)
+    public async Task UpdateCustomer(Customer customer)
     {
         var sw = Stopwatch.StartNew();
 
-        var entity = new Entities.Customer
-        {
-            Id = customer.Id,
-            Name = customer.Name,
-            CurrentBalance = customer.CurrentBalance
-        };
+        // 1. Buscar la entidad existente para no perder la contraseña
+        // Asumiendo que context hereda de DbContext o expone Set<T>
+        var dbSet = context.Set<RepoEntities.Customer>();
+        var existingEntity = await dbSet.FindAsync(customer.Id);
 
-        context.Update(entity);
+        if (existingEntity != null)
+        {
+            // 2. Actualizar solo los campos permitidos
+            existingEntity.Name = customer.Name;
+            existingEntity.CurrentBalance = customer.CurrentBalance;
+            existingEntity.Email = customer.Email;
+            existingEntity.Cedula = customer.Cedula;
+            // NOTA: No tocamos HashedPassword aquí para mantener la existente
+
+            // 3. EF Core detectará los cambios automáticamente al hacer SaveChanges
+            // o forzamos el update si es necesario:
+            context.Update(existingEntity);
+        }
 
         sw.Stop();
         Console.WriteLine($"🕒 Tiempo UpdateCustomer en CommandsRepository: {sw.ElapsedMilliseconds} ms");
-
-        return Task.CompletedTask;
     }
+
+    // ... (El resto de métodos DeleteCustomer, SaveChanges, etc. se mantienen igual) ...
 
     public Task DeleteCustomer(string customerId)
     {
         var sw = Stopwatch.StartNew();
-
-        var entity = new Entities.Customer { Id = customerId };
+        var entity = new RepoEntities.Customer { Id = customerId };
         context.Remove(entity);
-
         sw.Stop();
-        Console.WriteLine($"🕒 Tiempo DeleteCustomer en CommandsRepository: {sw.ElapsedMilliseconds} ms");
-
         return Task.CompletedTask;
     }
 

@@ -236,3 +236,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.UseCases\obj\
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.UseCases\obj\Debug\net8.0\refint\NorthWind.Sales.Backend.UseCases.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.UseCases\obj\Debug\net8.0\NorthWind.Sales.Backend.UseCases.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.UseCases\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.UseCases.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.UseCases\obj\Debug\net8.0\NorthWind.Sales.Backend.UseCases.sourcelink.json

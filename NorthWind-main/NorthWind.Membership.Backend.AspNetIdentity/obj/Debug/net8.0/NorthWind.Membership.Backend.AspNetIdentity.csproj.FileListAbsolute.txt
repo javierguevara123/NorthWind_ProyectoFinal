@@ -48,3 +48,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Membership.Backend.AspNetId
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net8.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net8.0\NorthWind.Membership.Backend.AspNetIdentity.genruntimeconfig.cache
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net8.0\ref\NorthWind.Membership.Backend.AspNetIdentity.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net8.0\NorthWind.Membership.Backend.AspNetIdentity.sourcelink.json

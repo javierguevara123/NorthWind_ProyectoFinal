@@ -150,3 +150,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Validators.Entities\o
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Validators.Entities\obj\Debug\net8.0\refint\NorthWind.Sales.Validators.Entities.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Validators.Entities\obj\Debug\net8.0\NorthWind.Sales.Validators.Entities.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Validators.Entities\obj\Debug\net8.0\ref\NorthWind.Sales.Validators.Entities.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Validators.Entities\obj\Debug\net8.0\NorthWind.Sales.Validators.Entities.sourcelink.json

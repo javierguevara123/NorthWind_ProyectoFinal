@@ -1,4 +1,6 @@
-﻿using NorthWind.DomainLogs.Entities.Interfaces;
+﻿using System.Security.Cryptography;
+using System.Text;
+using NorthWind.DomainLogs.Entities.Interfaces;
 using NorthWind.DomainLogs.Entities.ValueObjects;
 using NorthWind.Entities.Guards;
 using NorthWind.Entities.Interfaces;
@@ -33,12 +35,18 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
                     CreateCustomerMessages.StartingCustomerCreation,
                     userService.UserName));
 
+            // ✔ Hashear contraseña (Implementación simple con SHA256)
+            string hashedPassword = HashPassword(dto.Password);
+
             // ✔ Crear entidad de dominio
             var customer = new Customer
             {
                 Id = dto.Id,
                 Name = dto.Name,
-                CurrentBalance = dto.CurrentBalance
+                CurrentBalance = dto.CurrentBalance,
+                Email = dto.Email,             // Nuevo
+                Cedula = dto.Cedula,           // Nuevo
+                HashedPassword = hashedPassword // Nuevo
             };
 
             try
@@ -77,6 +85,13 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
 
                 throw;
             }
+        }
+
+        private string HashPassword(string password)
+        {
+            using var sha256 = SHA256.Create();
+            var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+            return Convert.ToBase64String(bytes);
         }
     }
 }

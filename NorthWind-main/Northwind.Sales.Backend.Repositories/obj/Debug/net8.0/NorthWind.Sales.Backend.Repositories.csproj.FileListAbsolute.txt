@@ -198,3 +198,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.Backend.Repositories\
 D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.Backend.Repositories\obj\Debug\net8.0\refint\NorthWind.Sales.Backend.Repositories.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.Backend.Repositories\obj\Debug\net8.0\NorthWind.Sales.Backend.Repositories.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.Backend.Repositories\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.Repositories.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.Backend.Repositories\obj\Debug\net8.0\NorthWind.Sales.Backend.Repositories.sourcelink.json

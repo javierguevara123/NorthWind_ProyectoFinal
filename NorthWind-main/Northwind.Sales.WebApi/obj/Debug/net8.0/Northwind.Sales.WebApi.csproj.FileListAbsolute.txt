@@ -436,3 +436,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.WebApi\obj\Debug\net8
 D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.WebApi\obj\Debug\net8.0\Northwind.Sales.WebApi.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.WebApi\obj\Debug\net8.0\Northwind.Sales.WebApi.genruntimeconfig.cache
 D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.WebApi\obj\Debug\net8.0\ref\Northwind.Sales.WebApi.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\Northwind.Sales.WebApi\obj\Debug\net8.0\Northwind.Sales.WebApi.sourcelink.json

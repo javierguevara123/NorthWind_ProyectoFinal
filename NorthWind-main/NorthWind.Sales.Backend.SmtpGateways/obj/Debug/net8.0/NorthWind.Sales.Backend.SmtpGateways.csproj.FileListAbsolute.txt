@@ -198,3 +198,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.SmtpGateways\
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.SmtpGateways\obj\Debug\net8.0\refint\NorthWind.Sales.Backend.SmtpGateways.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.SmtpGateways\obj\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.SmtpGateways\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.SmtpGateways.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.SmtpGateways\obj\Debug\net8.0\NorthWind.Sales.Backend.SmtpGateways.sourcelink.json

@@ -3,6 +3,8 @@
     public record CustomerDetailDto(
         string Id,
         string Name,
-        decimal CurrentBalance
+        decimal CurrentBalance,
+        string Email,      // Nuevo
+        string Cedula      // Nuevo
     );
 }

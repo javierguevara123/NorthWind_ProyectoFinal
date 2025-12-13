@@ -17,9 +17,12 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                 name: "Customers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CurrentBalance = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    Id = table.Column<string>(type: "nchar(5)", fixedLength: true, maxLength: 5, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
+                    CurrentBalance = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Cedula = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    HashedPassword = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -125,6 +128,16 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                         principalTable: "Products",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Customers",
+                columns: new[] { "Id", "Cedula", "CurrentBalance", "Email", "HashedPassword", "Name" },
+                values: new object[,]
+                {
+                    { "ALFKI", "0000000001", 0m, "alfreds@demo.com", "hash_demo_1", "Alfreds Futterkiste" },
+                    { "ANATR", "0000000002", 0m, "ana@demo.com", "hash_demo_2", "Ana Trujillo Emparedados y helados" },
+                    { "ANTON", "0000000003", 100m, "antonio@demo.com", "hash_demo_3", "Antonio Moreno Taquería" }
                 });
 
             migrationBuilder.InsertData(

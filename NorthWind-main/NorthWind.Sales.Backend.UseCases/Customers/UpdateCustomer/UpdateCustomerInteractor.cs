@@ -35,19 +35,21 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.UpdateCustomer
                     userService.UserName));
 
             // 4. Mapear DTO a entidad Customer
+            // NOTA: No mapeamos HashedPassword aquí para evitar sobrescribirla con vacío
             var customer = new Customer
             {
                 Id = dto.CustomerId,
                 Name = dto.Name,
-                CurrentBalance = dto.CurrentBalance
+                CurrentBalance = dto.CurrentBalance,
+                Email = dto.Email,
+                Cedula = dto.Cedula
             };
 
             try
             {
-                // 5. Iniciar transacción
                 domainTransaction.BeginTransaction();
 
-                // 6. Actualizar cliente
+                // 6. Actualizar cliente (El repositorio debe encargarse de no borrar la pass)
                 await commandsRepository.UpdateCustomer(customer);
 
                 // 7. Guardar cambios
@@ -64,22 +66,17 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.UpdateCustomer
                 // 9. Enviar respuesta
                 await outputPort.Handle(customer);
 
-                // 10. Confirmar transacción
                 domainTransaction.CommitTransaction();
             }
             catch
             {
-                // Rollback
                 domainTransaction.RollbackTransaction();
-
-                // Log
                 await domainLogger.LogInformation(
                     new DomainLog(
                         string.Format(
                             UpdateCustomerMessages.CustomerUpdateCancelledTemplate,
                             customer.Id),
                         userService.UserName));
-
                 throw;
             }
         }

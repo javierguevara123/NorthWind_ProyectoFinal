@@ -232,3 +232,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.DataContexts.
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.DataContexts.EFCore\obj\Debug\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.DataContexts.EFCore\obj\Debug\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.genruntimeconfig.cache
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.DataContexts.EFCore\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.DataContexts.EFCore.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.DataContexts.EFCore\obj\Debug\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.sourcelink.json

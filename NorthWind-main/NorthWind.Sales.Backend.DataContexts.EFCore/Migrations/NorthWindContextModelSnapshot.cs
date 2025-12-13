@@ -83,18 +83,66 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
             modelBuilder.Entity("NorthWind.Sales.Backend.Repositories.Entities.Customer", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(5)
+                        .HasColumnType("nchar(5)")
+                        .IsFixedLength();
+
+                    b.Property<string>("Cedula")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<decimal>("CurrentBalance")
-                        .HasColumnType("decimal(18,2)");
+                        .HasPrecision(8, 2)
+                        .HasColumnType("decimal(8,2)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("HashedPassword")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "ALFKI",
+                            Cedula = "0000000001",
+                            CurrentBalance = 0m,
+                            Email = "alfreds@demo.com",
+                            HashedPassword = "hash_demo_1",
+                            Name = "Alfreds Futterkiste"
+                        },
+                        new
+                        {
+                            Id = "ANATR",
+                            Cedula = "0000000002",
+                            CurrentBalance = 0m,
+                            Email = "ana@demo.com",
+                            HashedPassword = "hash_demo_2",
+                            Name = "Ana Trujillo Emparedados y helados"
+                        },
+                        new
+                        {
+                            Id = "ANTON",
+                            Cedula = "0000000003",
+                            CurrentBalance = 100m,
+                            Email = "antonio@demo.com",
+                            HashedPassword = "hash_demo_3",
+                            Name = "Antonio Moreno Taquería"
+                        });
                 });
 
             modelBuilder.Entity("NorthWind.Sales.Backend.Repositories.Entities.DomainLog", b =>

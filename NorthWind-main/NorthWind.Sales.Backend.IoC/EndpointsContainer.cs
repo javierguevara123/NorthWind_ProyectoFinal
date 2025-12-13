@@ -12,6 +12,7 @@ public static class EndpointsContainer
         app.UseProductsController();
         app.UseCustomersController();
         app.UsePerformanceProductsController();
+        app.UsePerformanceCustomersController();
         app.UseLogsController();
         app.MapControllers();
 

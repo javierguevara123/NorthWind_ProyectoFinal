@@ -36,6 +36,7 @@ internal class NorthWindContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // APLICAR CONFIGURACIONES DE NEGOCIO
+        modelBuilder.ApplyConfiguration(new CustomerConfiguration());
         modelBuilder.ApplyConfiguration(new OrderConfiguration());
         modelBuilder.ApplyConfiguration(new OrderDetailConfiguration());
         modelBuilder.ApplyConfiguration(new ProductConfiguration());

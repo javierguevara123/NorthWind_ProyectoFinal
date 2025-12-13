@@ -5,9 +5,18 @@
       {
         "Path": "Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
         "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Testing",
+    "Projects": [
+      {
+        "Path": "Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
+        "Action": "Start"
       },
       {
-        "Path": "NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+        "Path": "NorthWind.Performance.ConsoleClient\\NorthWind.Performance.ConsoleClient.csproj",
         "Action": "Start"
       }
     ]

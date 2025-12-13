@@ -198,6 +198,61 @@
     "EndpointName": "GetOrders"
   },
   {
+    "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceCustomersController",
+    "Method": "TestInsertCustomers",
+    "RelativePath": "api/performance/customers/insert",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceResultDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "TestInsertCustomers"
+  },
+  {
+    "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceCustomersController",
+    "Method": "TestSelectCustomers",
+    "RelativePath": "api/performance/customers/select",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceResultDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "TestSelectCustomers"
+  },
+  {
     "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceProductsController",
     "Method": "TestInsertProducts",
     "RelativePath": "api/performance/products/insert",

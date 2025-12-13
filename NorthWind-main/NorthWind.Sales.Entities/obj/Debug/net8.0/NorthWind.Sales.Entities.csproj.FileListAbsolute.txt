@@ -78,3 +78,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Entities\obj\Debug\ne
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Entities\obj\Debug\net8.0\refint\NorthWind.Sales.Entities.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Entities\obj\Debug\net8.0\NorthWind.Sales.Entities.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Entities\obj\Debug\net8.0\ref\NorthWind.Sales.Entities.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Entities\obj\Debug\net8.0\NorthWind.Sales.Entities.sourcelink.json

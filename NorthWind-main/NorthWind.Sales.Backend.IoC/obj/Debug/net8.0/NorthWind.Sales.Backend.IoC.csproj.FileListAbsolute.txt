@@ -156,3 +156,4 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.IoC\obj\Debug
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\refint\NorthWind.Sales.Backend.IoC.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\NorthWind.Sales.Backend.IoC.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\ref\NorthWind.Sales.Backend.IoC.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Sales.Backend.IoC\obj\Debug\net8.0\NorthWind.Sales.Backend.IoC.sourcelink.json

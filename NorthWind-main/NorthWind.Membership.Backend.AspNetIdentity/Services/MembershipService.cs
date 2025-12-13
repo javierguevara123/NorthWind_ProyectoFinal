@@ -261,7 +261,7 @@ namespace NorthWind.Membership.Backend.AspNetIdentity.Services
 
         public async Task InitializeRoles()
         {
-            string[] roles = { "SuperUser", "Administrator", "Employee", "Customer" };
+            string[] roles = { "SuperUser", "Administrator", "Employee"};
 
             foreach (var role in roles)
             {

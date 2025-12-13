@@ -810,6 +810,69 @@
         }
       }
     },
+    "/api/performance/customers/insert": {
+      "post": {
+        "tags": [
+          "PerformanceCustomersController"
+        ],
+        "operationId": "TestInsertCustomers",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomersPerformanceRequestDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomersPerformanceResultDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/api/performance/customers/select": {
+      "post": {
+        "tags": [
+          "PerformanceCustomersController"
+        ],
+        "operationId": "TestSelectCustomers",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomersPerformanceRequestDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomersPerformanceResultDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/performance/products/insert": {
       "post": {
         "tags": [
@@ -1118,6 +1181,18 @@
           "currentBalance": {
             "type": "number",
             "format": "double"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "cedula": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1205,6 +1280,14 @@
           "currentBalance": {
             "type": "number",
             "format": "double"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "cedula": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1222,6 +1305,38 @@
           "totalRecords": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomersPerformanceRequestDto": {
+        "type": "object",
+        "properties": {
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomersPerformanceResultDto": {
+        "type": "object",
+        "properties": {
+          "operation": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "elapsedMilliseconds": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1608,6 +1723,14 @@
           "currentBalance": {
             "type": "number",
             "format": "double"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "cedula": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

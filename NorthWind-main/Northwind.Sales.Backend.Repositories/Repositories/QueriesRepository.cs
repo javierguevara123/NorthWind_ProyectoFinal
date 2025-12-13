@@ -107,9 +107,9 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
         }
 
         private IQueryable<Entities.Product> ApplyOrdering(
-            IQueryable<Entities.Product> queryable,
-            string? orderBy,
-            bool descending)
+    IQueryable<Entities.Product> queryable,
+    string? orderBy,
+    bool descending)
         {
             return orderBy?.ToLower() switch
             {
@@ -121,9 +121,14 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                     ? queryable.OrderByDescending(p => p.UnitsInStock)
                     : queryable.OrderBy(p => p.UnitsInStock),
 
-                "name" or _ => descending
+                "name" => descending
                     ? queryable.OrderByDescending(p => p.Name)
-                    : queryable.OrderBy(p => p.Name)
+                    : queryable.OrderBy(p => p.Name),
+
+                // CAMBIO AQUÍ: 'id' o cualquier otro valor ('_') ordena por ID
+                "id" or _ => descending
+                    ? queryable.OrderByDescending(p => p.Id)
+                    : queryable.OrderBy(p => p.Id)
             };
         }
 
@@ -176,6 +181,8 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
             return balance.HasValue && balance.Value > 0;
         }
 
+        // ========== CUSTOMERS ==========
+
         public async Task<CustomerDetailDto?> GetCustomerById(string customerId)
         {
             var queryable =
@@ -184,7 +191,9 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                 select new CustomerDetailDto(
                     c.Id,
                     c.Name,
-                    c.CurrentBalance
+                    c.CurrentBalance,
+                    c.Email,    // Mapeo nuevo campo
+                    c.Cedula    // Mapeo nuevo campo
                 );
 
             return await context.FirstOrDefaultAync(queryable);
@@ -194,18 +203,21 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
         {
             var baseQuery = context.Customers.AsQueryable();
 
-            // filtro opcional por nombre
             if (!string.IsNullOrWhiteSpace(query.SearchTerm))
             {
                 var term = query.SearchTerm.ToLower();
-                baseQuery = baseQuery.Where(c => c.Name.ToLower().Contains(term));
+                baseQuery = baseQuery.Where(c => c.Name.ToLower().Contains(term) ||
+                                                 c.Email.ToLower().Contains(term)); // (Si agregaste filtro por email)
             }
 
             var totalRecords = await context.CountAsync(baseQuery);
 
+            // --- CAMBIO AQUÍ ---
+            // Antes ordenaba por Name. Lo cambiamos a Id.
             var ordered = query.OrderDescending
-                ? baseQuery.OrderByDescending(c => c.Name)
-                : baseQuery.OrderBy(c => c.Name);
+                ? baseQuery.OrderByDescending(c => c.Id)
+                : baseQuery.OrderBy(c => c.Id);
+            // -------------------
 
             var pagedQuery = ordered
                 .Skip((query.PageNumber - 1) * query.PageSize)
@@ -213,13 +225,16 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                 .Select(c => new CustomerListItemDto(
                     c.Id,
                     c.Name,
-                    c.CurrentBalance
+                    c.CurrentBalance,
+                    c.Email,
+                    c.Cedula
                 ));
 
             var customers = await context.ToListAsync(pagedQuery);
 
             return new CustomerPagedResultDto(customers, totalRecords);
         }
+
 
         public async Task<bool> CustomerNameExists(string name)
         {

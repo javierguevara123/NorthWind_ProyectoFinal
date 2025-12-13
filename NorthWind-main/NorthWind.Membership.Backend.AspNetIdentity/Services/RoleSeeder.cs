@@ -12,7 +12,7 @@ namespace NorthWind.Membership.Backend.AspNetIdentity.Services
             var userManager = serviceProvider.GetRequiredService<UserManager<NorthWindUser>>();
 
             // CAMBIO: Roles del sistema
-            string[] roles = { "SuperUser", "Administrator", "Employee", "Customer" };
+            string[] roles = { "SuperUser", "Administrator", "Employee"};
 
             foreach (var role in roles)
             {

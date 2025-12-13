@@ -2,6 +2,7 @@
 using NorthWind.Entities.Interfaces;
 using NorthWind.Sales.Backend.BusinessObjects.Guards;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories;
+using NorthWind.Sales.Entities.Dtos.Customers.GetCustomerById; // Asegúrate de este using
 using NorthWind.Validation.Entities.Interfaces;
 
 namespace NorthWind.Sales.Backend.UseCases.Customers.GetCustomerById
@@ -21,20 +22,11 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.GetCustomerById
             // 2. Validar reglas de negocio
             await GuardModel.AgainstNotValid(modelValidatorHub, dto);
 
-            // 3. Obtener el cliente
+            // 3. Obtener el cliente (El repositorio devuelve CustomerDetailDto)
             var customer = await queriesCustomerRepository.GetCustomerById(dto.CustomerId);
 
-            // 4. Mapear al DTO de salida
-            CustomerDetailDto? detail = customer != null
-                ? new CustomerDetailDto(
-                    customer.Id,
-                    customer.Name,
-                    customer.CurrentBalance
-                )
-                : null;
-
-            // 5. Enviar al output port
-            await outputPort.Handle(detail);
+            // 4. Enviar al output port
+            await outputPort.Handle(customer);
         }
     }
 }

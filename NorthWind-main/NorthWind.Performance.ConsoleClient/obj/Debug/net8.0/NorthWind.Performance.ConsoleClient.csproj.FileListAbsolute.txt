@@ -1,0 +1,15 @@
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\bin\Debug\net8.0\NorthWind.Performance.ConsoleClient.exe
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\bin\Debug\net8.0\NorthWind.Performance.ConsoleClient.deps.json
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\bin\Debug\net8.0\NorthWind.Performance.ConsoleClient.runtimeconfig.json
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\bin\Debug\net8.0\NorthWind.Performance.ConsoleClient.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\bin\Debug\net8.0\NorthWind.Performance.ConsoleClient.pdb
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.AssemblyInfoInputs.cache
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.AssemblyInfo.cs
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.csproj.CoreCompileInputs.cache
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.sourcelink.json
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\refint\NorthWind.Performance.ConsoleClient.dll
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.pdb
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\NorthWind.Performance.ConsoleClient.genruntimeconfig.cache
+D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Performance.ConsoleClient\obj\Debug\net8.0\ref\NorthWind.Performance.ConsoleClient.dll

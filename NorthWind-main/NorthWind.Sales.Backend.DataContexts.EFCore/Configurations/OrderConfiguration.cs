@@ -10,7 +10,7 @@ IEntityTypeConfiguration<Order>
     {
         builder.Property(o => o.CustomerId)
         .IsRequired()
-        .HasMaxLength(5)
+        .HasMaxLength(10)
         .IsFixedLength();
         builder.Property(o => o.ShipAddress)
         .IsRequired()
@@ -22,10 +22,10 @@ IEntityTypeConfiguration<Order>
         builder.Property(o => o.ShipPostalCode)
         .HasMaxLength(10);
         builder.HasOne<Customer>()
- .WithMany()
- .HasForeignKey(o => o.CustomerId);
+            .WithMany()
+            .HasForeignKey(o => o.CustomerId);
         builder.Property(o => o.EmployeeId)
-        .IsRequired()       // Opcional: si siempre debe tener un usuario
+        .IsRequired(false)       // Opcional: si siempre debe tener un usuario
         .HasMaxLength(100);
 
     }

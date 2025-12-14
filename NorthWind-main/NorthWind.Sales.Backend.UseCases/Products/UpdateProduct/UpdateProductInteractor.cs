@@ -38,6 +38,19 @@ namespace NorthWind.Sales.Backend.UseCases.Products.UpdateProduct
                     UpdateProductMessages.StartingProductUpdate,
                     userService.UserName));
 
+            byte[]? imageBytes = null;
+            if (!string.IsNullOrEmpty(dto.ProfilePictureBase64))
+            {
+                try
+                {
+                    var base64Clean = dto.ProfilePictureBase64.Contains(",")
+                        ? dto.ProfilePictureBase64.Split(',')[1]
+                        : dto.ProfilePictureBase64;
+                    imageBytes = Convert.FromBase64String(base64Clean);
+                }
+                catch { imageBytes = null; }
+            }
+
             // 4. Mapear DTO a entidad Product (POCO)
             var product = new Product
             {
@@ -45,7 +58,7 @@ namespace NorthWind.Sales.Backend.UseCases.Products.UpdateProduct
                 Name = dto.Name,
                 UnitsInStock = dto.UnitsInStock,
                 UnitPrice = dto.UnitPrice,
-                //LastModifiedDate = DateTime.Now  // Actualizar fecha de modificación
+                ProfilePicture = imageBytes
             };
 
             try

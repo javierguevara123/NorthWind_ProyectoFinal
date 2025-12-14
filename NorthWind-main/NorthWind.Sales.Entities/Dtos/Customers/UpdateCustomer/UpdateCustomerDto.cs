@@ -4,13 +4,17 @@
         string customerid,
         string name,
         decimal currentBalance,
-        string email,      // Nuevo
-        string cedula)     // Nuevo
+        string email,
+        string cedula,
+        string? profilePictureBase64,
+        string? password) // <--- NUEVO: Contraseña opcional
     {
         public string CustomerId => customerid;
         public string Name => name;
         public decimal CurrentBalance => currentBalance;
         public string Email => email;
         public string Cedula => cedula;
+        public string? ProfilePictureBase64 => profilePictureBase64;
+        public string? Password => password; // <--- Getter
     }
 }

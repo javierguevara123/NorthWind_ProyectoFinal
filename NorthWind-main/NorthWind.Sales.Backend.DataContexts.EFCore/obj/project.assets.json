@@ -4289,11 +4289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj",
+      "projectUniqueName": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj",
       "projectName": "NorthWind.Sales.Backend.DataContexts.EFCore",
-      "projectPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj",
+      "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj",
       "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
-      "outputPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\obj\\",
+      "outputPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4316,11 +4316,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\NorthWind.Exceptions.Entities.csproj": {
-              "projectPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\NorthWind.Exceptions.Entities.csproj"
+            "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\NorthWind.Exceptions.Entities.csproj": {
+              "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\NorthWind.Exceptions.Entities.csproj"
             },
-            "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj": {
-              "projectPath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj"
+            "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj": {
+              "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj"
             }
           }
         }

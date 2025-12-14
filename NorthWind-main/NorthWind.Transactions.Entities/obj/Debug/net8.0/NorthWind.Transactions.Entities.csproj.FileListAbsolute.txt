@@ -85,3 +85,16 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\D
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\refint\NorthWind.Transactions.Entities.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\ref\NorthWind.Transactions.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\bin\Debug\net8.0\NorthWind.Transactions.Entities.deps.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\bin\Debug\net8.0\NorthWind.Transactions.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\bin\Debug\net8.0\NorthWind.Transactions.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.csproj.AssemblyReference.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.AssemblyInfoInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.AssemblyInfo.cs
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.csproj.CoreCompileInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.sourcelink.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\refint\NorthWind.Transactions.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\NorthWind.Transactions.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Transactions.Entities\obj\Debug\net8.0\ref\NorthWind.Transactions.Entities.dll

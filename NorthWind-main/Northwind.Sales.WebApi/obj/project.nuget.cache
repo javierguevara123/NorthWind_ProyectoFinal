@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4YUdB7VrASQ=",
+  "dgSpecHash": "e6wW81LcHCU=",
   "success": true,
-  "projectFilePath": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
+  "projectFilePath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\azure.identity\\1.13.2\\azure.identity.1.13.2.nupkg.sha512",

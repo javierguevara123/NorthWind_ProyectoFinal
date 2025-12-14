@@ -17,12 +17,14 @@
         string name,
         decimal currentBalance,
         string email,    // <--- NUEVO
-        string cedula)   // <--- NUEVO
+        string cedula,
+        string? profilePictureBase64)   // <--- NUEVO
     {
         public string Id => id;
         public string Name => name;
         public decimal CurrentBalance => currentBalance;
         public string Email => email;   // <--- NUEVO
         public string Cedula => cedula; // <--- NUEVO
-    }
+    public string? ProfilePictureBase64 => profilePictureBase64;
+}
 }

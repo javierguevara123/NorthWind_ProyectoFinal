@@ -17,12 +17,13 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                 name: "Customers",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "nchar(5)", fixedLength: true, maxLength: 5, nullable: false),
+                    Id = table.Column<string>(type: "nchar(10)", fixedLength: true, maxLength: 10, nullable: false),
                     Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     CurrentBalance = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Cedula = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    HashedPassword = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false)
+                    HashedPassword = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    ProfilePicture = table.Column<byte[]>(type: "varbinary(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -69,7 +70,8 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(40)", maxLength: 40, nullable: false),
                     UnitsInStock = table.Column<short>(type: "smallint", nullable: false),
-                    UnitPrice = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false)
+                    UnitPrice = table.Column<decimal>(type: "decimal(8,2)", precision: 8, scale: 2, nullable: false),
+                    ProfilePicture = table.Column<byte[]>(type: "varbinary(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -82,12 +84,12 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerId = table.Column<string>(type: "nchar(5)", fixedLength: true, maxLength: 5, nullable: false),
+                    CustomerId = table.Column<string>(type: "nchar(10)", fixedLength: true, maxLength: 10, nullable: false),
                     ShipAddress = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false),
                     ShipCity = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
                     ShipCountry = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
                     ShipPostalCode = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    EmployeeId = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    EmployeeId = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     ShippingType = table.Column<int>(type: "int", nullable: false),
                     DiscountType = table.Column<int>(type: "int", nullable: false),
                     Discount = table.Column<double>(type: "float", nullable: false),
@@ -132,24 +134,24 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
 
             migrationBuilder.InsertData(
                 table: "Customers",
-                columns: new[] { "Id", "Cedula", "CurrentBalance", "Email", "HashedPassword", "Name" },
+                columns: new[] { "Id", "Cedula", "CurrentBalance", "Email", "HashedPassword", "Name", "ProfilePicture" },
                 values: new object[,]
                 {
-                    { "ALFKI", "0000000001", 0m, "alfreds@demo.com", "hash_demo_1", "Alfreds Futterkiste" },
-                    { "ANATR", "0000000002", 0m, "ana@demo.com", "hash_demo_2", "Ana Trujillo Emparedados y helados" },
-                    { "ANTON", "0000000003", 100m, "antonio@demo.com", "hash_demo_3", "Antonio Moreno Taquería" }
+                    { "ALFKI", "0000000001", 0m, "alfreds@demo.com", "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=", "Alfreds Futterkiste", null },
+                    { "ANATR", "0000000002", 0m, "ana@demo.com", "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=", "Ana Trujillo Emparedados", null },
+                    { "ANTON", "0000000003", 100m, "antonio@demo.com", "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=", "Antonio Moreno Taquería", null }
                 });
 
             migrationBuilder.InsertData(
                 table: "Products",
-                columns: new[] { "Id", "Name", "UnitPrice", "UnitsInStock" },
+                columns: new[] { "Id", "Name", "ProfilePicture", "UnitPrice", "UnitsInStock" },
                 values: new object[,]
                 {
-                    { 1, "Chai", 35m, (short)20 },
-                    { 2, "Chang", 55m, (short)0 },
-                    { 3, "Aniseed Syrup", 65m, (short)20 },
-                    { 4, "Chef Anton's Cajun Seasoning", 75m, (short)40 },
-                    { 5, "Chef Anton's Gumbo Mix", 50m, (short)20 }
+                    { 1, "Chai", null, 35m, (short)20 },
+                    { 2, "Chang", null, 55m, (short)0 },
+                    { 3, "Aniseed Syrup", null, 65m, (short)20 },
+                    { 4, "Chef Anton's Cajun Seasoning", null, 75m, (short)40 },
+                    { 5, "Chef Anton's Gumbo Mix", null, 50m, (short)20 }
                 });
 
             migrationBuilder.CreateIndex(

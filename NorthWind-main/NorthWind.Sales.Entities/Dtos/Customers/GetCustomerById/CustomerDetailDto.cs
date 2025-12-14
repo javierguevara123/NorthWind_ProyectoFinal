@@ -5,6 +5,7 @@
         string Name,
         decimal CurrentBalance,
         string Email,      // Nuevo
-        string Cedula      // Nuevo
+        string Cedula,
+        string? ProfilePictureBase64
     );
 }

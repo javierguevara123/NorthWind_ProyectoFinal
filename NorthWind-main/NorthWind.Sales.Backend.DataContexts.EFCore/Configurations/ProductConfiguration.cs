@@ -11,6 +11,9 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Configurations
             .HasMaxLength(40);
             builder.Property(p => p.UnitPrice)
             .HasPrecision(8, 2);
+            builder.Property(p => p.ProfilePicture)
+                   .IsRequired(false);
+
             builder.HasData(
             new Product
             {

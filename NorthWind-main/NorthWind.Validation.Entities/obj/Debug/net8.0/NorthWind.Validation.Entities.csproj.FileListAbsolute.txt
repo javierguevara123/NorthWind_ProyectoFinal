@@ -85,3 +85,16 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Deb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\refint\NorthWind.Validation.Entities.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\ref\NorthWind.Validation.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\bin\Debug\net8.0\NorthWind.Validation.Entities.deps.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\bin\Debug\net8.0\NorthWind.Validation.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\bin\Debug\net8.0\NorthWind.Validation.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.csproj.AssemblyReference.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.AssemblyInfoInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.AssemblyInfo.cs
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.csproj.CoreCompileInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.sourcelink.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\refint\NorthWind.Validation.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Validation.Entities\obj\Debug\net8.0\ref\NorthWind.Validation.Entities.dll

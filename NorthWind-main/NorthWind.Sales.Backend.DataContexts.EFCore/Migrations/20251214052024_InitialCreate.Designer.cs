@@ -12,7 +12,7 @@ using NorthWind.Sales.Backend.DataContexts.EFCore.DataContexts;
 namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
 {
     [DbContext(typeof(NorthWindContext))]
-    [Migration("20251209035228_InitialCreate")]
+    [Migration("20251214052024_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -35,8 +35,8 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
 
                     b.Property<string>("CustomerId")
                         .IsRequired()
-                        .HasMaxLength(5)
-                        .HasColumnType("nchar(5)")
+                        .HasMaxLength(10)
+                        .HasColumnType("nchar(10)")
                         .IsFixedLength();
 
                     b.Property<double>("Discount")
@@ -46,7 +46,6 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("EmployeeId")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
@@ -86,8 +85,8 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
             modelBuilder.Entity("NorthWind.Sales.Backend.Repositories.Entities.Customer", b =>
                 {
                     b.Property<string>("Id")
-                        .HasMaxLength(5)
-                        .HasColumnType("nchar(5)")
+                        .HasMaxLength(10)
+                        .HasColumnType("nchar(10)")
                         .IsFixedLength();
 
                     b.Property<string>("Cedula")
@@ -114,6 +113,9 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                         .HasMaxLength(40)
                         .HasColumnType("nvarchar(40)");
 
+                    b.Property<byte[]>("ProfilePicture")
+                        .HasColumnType("varbinary(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
@@ -125,7 +127,7 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                             Cedula = "0000000001",
                             CurrentBalance = 0m,
                             Email = "alfreds@demo.com",
-                            HashedPassword = "hash_demo_1",
+                            HashedPassword = "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=",
                             Name = "Alfreds Futterkiste"
                         },
                         new
@@ -134,8 +136,8 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                             Cedula = "0000000002",
                             CurrentBalance = 0m,
                             Email = "ana@demo.com",
-                            HashedPassword = "hash_demo_2",
-                            Name = "Ana Trujillo Emparedados y helados"
+                            HashedPassword = "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=",
+                            Name = "Ana Trujillo Emparedados"
                         },
                         new
                         {
@@ -143,7 +145,7 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                             Cedula = "0000000003",
                             CurrentBalance = 100m,
                             Email = "antonio@demo.com",
-                            HashedPassword = "hash_demo_3",
+                            HashedPassword = "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI=",
                             Name = "Antonio Moreno Taquería"
                         });
                 });
@@ -242,6 +244,9 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.Migrations
                         .IsRequired()
                         .HasMaxLength(40)
                         .HasColumnType("nvarchar(40)");
+
+                    b.Property<byte[]>("ProfilePicture")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<decimal>("UnitPrice")
                         .HasPrecision(8, 2)

@@ -38,6 +38,7 @@ internal class CommandsRepository(INorthWindSalesCommandsDataContext context) : 
             Name = product.Name,
             UnitPrice = product.UnitPrice,
             UnitsInStock = product.UnitsInStock,
+            ProfilePicture = product.ProfilePicture
         };
 
         await context.AddAsync(productEntity);
@@ -48,24 +49,24 @@ internal class CommandsRepository(INorthWindSalesCommandsDataContext context) : 
         return productEntity.Id;
     }
 
-    public Task UpdateProduct(Product product)
+    public async Task UpdateProduct(Product product)
     {
-        var sw = Stopwatch.StartNew();
+        var existingEntity = await context.Set<RepoEntities.Product>().FindAsync(product.Id);
 
-        var productEntity = new Entities.Product
+        if (existingEntity != null)
         {
-            Id = product.Id,
-            Name = product.Name,
-            UnitPrice = product.UnitPrice,
-            UnitsInStock = product.UnitsInStock,
-        };
+            existingEntity.Name = product.Name;
+            existingEntity.UnitsInStock = product.UnitsInStock;
+            existingEntity.UnitPrice = product.UnitPrice;
 
-        context.Update(productEntity);
+            // Lógica de Imagen para Producto
+            if (product.ProfilePicture != null && product.ProfilePicture.Length > 0)
+            {
+                existingEntity.ProfilePicture = product.ProfilePicture;
+            }
 
-        sw.Stop();
-        Console.WriteLine($"🕒 Tiempo UpdateProduct en CommandsRepository: {sw.ElapsedMilliseconds} ms");
-
-        return Task.CompletedTask;
+            context.Update(existingEntity);
+        }
     }
 
     public Task DeleteProduct(int productId)
@@ -123,10 +124,17 @@ internal class CommandsRepository(INorthWindSalesCommandsDataContext context) : 
             existingEntity.CurrentBalance = customer.CurrentBalance;
             existingEntity.Email = customer.Email;
             existingEntity.Cedula = customer.Cedula;
-            // NOTA: No tocamos HashedPassword aquí para mantener la existente
 
-            // 3. EF Core detectará los cambios automáticamente al hacer SaveChanges
-            // o forzamos el update si es necesario:
+            if (customer.ProfilePicture != null && customer.ProfilePicture.Length > 0)
+            {
+                existingEntity.ProfilePicture = customer.ProfilePicture;
+            }
+
+            if (!string.IsNullOrEmpty(customer.HashedPassword))
+            {
+                existingEntity.HashedPassword = customer.HashedPassword;
+            }
+
             context.Update(existingEntity);
         }
 

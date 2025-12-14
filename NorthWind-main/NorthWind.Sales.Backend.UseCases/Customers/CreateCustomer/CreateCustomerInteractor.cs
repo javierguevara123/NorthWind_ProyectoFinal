@@ -38,6 +38,28 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
             // ✔ Hashear contraseña (Implementación simple con SHA256)
             string hashedPassword = HashPassword(dto.Password);
 
+            byte[]? imageBytes = null;
+
+            if (!string.IsNullOrEmpty(dto.ProfilePictureBase64))
+            {
+                try
+                {
+                    // Limpiamos el header del base64 si viene del front (ej: "data:image/png;base64,")
+                    var base64Clean = dto.ProfilePictureBase64;
+                    if (base64Clean.Contains(","))
+                    {
+                        base64Clean = base64Clean.Split(',')[1];
+                    }
+
+                    imageBytes = Convert.FromBase64String(base64Clean);
+                }
+                catch
+                {
+                    // Si el string no es válido, lo dejamos null o lanzamos error
+                    imageBytes = null;
+                }
+            }
+
             // ✔ Crear entidad de dominio
             var customer = new Customer
             {
@@ -46,7 +68,8 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
                 CurrentBalance = dto.CurrentBalance,
                 Email = dto.Email,             // Nuevo
                 Cedula = dto.Cedula,           // Nuevo
-                HashedPassword = hashedPassword // Nuevo
+                HashedPassword = hashedPassword,
+                ProfilePicture = imageBytes
             };
 
             try

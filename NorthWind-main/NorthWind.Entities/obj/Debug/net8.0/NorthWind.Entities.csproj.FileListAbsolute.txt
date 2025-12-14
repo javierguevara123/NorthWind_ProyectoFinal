@@ -78,3 +78,15 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\N
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\refint\NorthWind.Entities.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\ref\NorthWind.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\bin\Debug\net8.0\NorthWind.Entities.deps.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\bin\Debug\net8.0\NorthWind.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\bin\Debug\net8.0\NorthWind.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.AssemblyInfoInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.AssemblyInfo.cs
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.csproj.CoreCompileInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.sourcelink.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\refint\NorthWind.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\NorthWind.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Entities\obj\Debug\net8.0\ref\NorthWind.Entities.dll

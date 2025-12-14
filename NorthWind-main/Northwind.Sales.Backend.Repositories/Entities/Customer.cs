@@ -8,5 +8,6 @@
         public string Email { get; set; }
         public string Cedula { get; set; }
         public string HashedPassword { get; set; }
+        public byte[]? ProfilePicture { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using NorthWind.Sales.Backend.BusinessObjects.ValueObjects;
+﻿using Microsoft.EntityFrameworkCore;
+using NorthWind.Sales.Backend.BusinessObjects.ValueObjects;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomerById;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomers;
 using NorthWind.Sales.Entities.Dtos.Orders.GetOrderById;
@@ -12,15 +13,26 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
 
         public async Task<IEnumerable<ProductDto>> GetAllProducts()
         {
-            var queryable = context.Products
-                .Select(p => new ProductDto(
+            // 1. Traer datos crudos (incluyendo binario)
+            var rawData = await context.Products
+                .Select(p => new
+                {
                     p.Id,
                     p.Name,
                     p.UnitsInStock,
-                    p.UnitPrice
-                ));
+                    p.UnitPrice,
+                    p.ProfilePicture // Asumiendo que agregaste este campo byte[] a la entidad Product
+                })
+                .ToListAsync();
 
-            return await context.ToListAsync(queryable);
+            // 2. Convertir a DTO en memoria
+            return rawData.Select(p => new ProductDto(
+                p.Id,
+                p.Name,
+                p.UnitsInStock,
+                p.UnitPrice,
+                p.ProfilePicture != null ? Convert.ToBase64String(p.ProfilePicture) : null // <--- Conversión
+            ));
         }
 
         public async Task<bool> ProductExists(int productId)
@@ -35,32 +47,44 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                 .Where(od => od.ProductId == productId)
                 .Select(od => (int)od.Quantity);
 
-            var committedUnits = await context.SumAsync(queryable); // ⬅️ Llamar a través del context
+            var committedUnits = await context.SumAsync(queryable);
             return (short)committedUnits;
         }
 
         public async Task<ProductDto?> GetProductById(int productId)
         {
-            var queryable = context.Products
+            // 1. Traer proyección anónima
+            var rawProduct = await context.Products
                 .Where(p => p.Id == productId)
-                .Select(p => new ProductDto(
+                .Select(p => new
+                {
                     p.Id,
                     p.Name,
                     p.UnitsInStock,
-                    p.UnitPrice
-                ));
+                    p.UnitPrice,
+                    p.ProfilePicture // Campo binario
+                })
+                .FirstOrDefaultAsync();
 
-            return await context.FirstOrDefaultAync(queryable);
+            if (rawProduct == null) return null;
+
+            // 2. Mapear y convertir
+            return new ProductDto(
+                rawProduct.Id,
+                rawProduct.Name,
+                rawProduct.UnitsInStock,
+                rawProduct.UnitPrice,
+                rawProduct.ProfilePicture != null ? Convert.ToBase64String(rawProduct.ProfilePicture) : null
+            );
         }
 
         // ========== PRODUCTS CON PAGINACIÓN ==========
 
         public async Task<PagedResultDto<ProductDto>> GetProductsPaged(GetProductsQueryDto query)
         {
-            // 1. Crear query base
             var queryable = context.Products.AsQueryable();
 
-            // 2. Aplicar filtros
+            // Filtros
             if (!string.IsNullOrWhiteSpace(query.SearchTerm))
             {
                 var searchTerm = query.SearchTerm.ToLower();
@@ -76,27 +100,34 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
             if (query.IsLowStock.HasValue && query.IsLowStock.Value)
                 queryable = queryable.Where(p => p.UnitsInStock < 10);
 
-            // 3. Obtener total de registros (USANDO MÉTODO DEL CONTEXTO)
-            var totalCount = await context.CountAsync(queryable);  // ⬅️ CORREGIDO
+            var totalCount = await context.CountAsync(queryable);
 
-            // 4. Aplicar ordenamiento
             queryable = ApplyOrdering(queryable, query.OrderBy, query.OrderDescending);
 
-            // 5. Aplicar paginación y proyección
-            var pagedQuery = queryable
+            // PAGINACIÓN Y SELECCIÓN DE DATOS CRUDOS
+            // Nota: No convertimos a DTO aquí para evitar error de traducción SQL con Base64
+            var rawItems = await queryable
                 .Skip((query.PageNumber - 1) * query.PageSize)
                 .Take(query.PageSize)
-                .Select(p => new ProductDto(
+                .Select(p => new
+                {
                     p.Id,
                     p.Name,
                     p.UnitsInStock,
-                    p.UnitPrice
-                ));
+                    p.UnitPrice,
+                    p.ProfilePicture // Traemos los bytes
+                })
+                .ToListAsync();
 
-            // 6. Ejecutar query (USANDO MÉTODO DEL CONTEXTO)
-            var items = await context.ToListAsync(pagedQuery);  // ⬅️ YA ESTABA BIEN
+            // CONVERSIÓN EN MEMORIA
+            var items = rawItems.Select(p => new ProductDto(
+                p.Id,
+                p.Name,
+                p.UnitsInStock,
+                p.UnitPrice,
+                p.ProfilePicture != null ? Convert.ToBase64String(p.ProfilePicture) : null
+            )).ToList();
 
-            // 7. Retornar resultado paginado
             return new PagedResultDto<ProductDto>
             {
                 Items = items,
@@ -107,9 +138,9 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
         }
 
         private IQueryable<Entities.Product> ApplyOrdering(
-    IQueryable<Entities.Product> queryable,
-    string? orderBy,
-    bool descending)
+            IQueryable<Entities.Product> queryable,
+            string? orderBy,
+            bool descending)
         {
             return orderBy?.ToLower() switch
             {
@@ -125,7 +156,6 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                     ? queryable.OrderByDescending(p => p.Name)
                     : queryable.OrderBy(p => p.Name),
 
-                // CAMBIO AQUÍ: 'id' o cualquier otro valor ('_') ordena por ID
                 "id" or _ => descending
                     ? queryable.OrderByDescending(p => p.Id)
                     : queryable.OrderBy(p => p.Id)
@@ -148,8 +178,7 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
             return await context.AnyAsync(queryable);
         }
 
-        public async Task<decimal?> GetCustomerCurrentBalance(
-       string customerId)
+        public async Task<decimal?> GetCustomerCurrentBalance(string customerId)
         {
             var Queryable = context.Customers
             .Where(c => c.Id == customerId)
@@ -157,17 +186,15 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
             var Result = await context.FirstOrDefaultAync(Queryable);
             return Result?.CurrentBalance;
         }
-        public async Task<IEnumerable<ProductUnitsInStock>>
-       GetProductsUnitsInStock(IEnumerable<int> productIds)
+
+        public async Task<IEnumerable<ProductUnitsInStock>> GetProductsUnitsInStock(IEnumerable<int> productIds)
         {
             var Queryable = context.Products
             .Where(p => productIds.Contains(p.Id))
-            .Select(p => new ProductUnitsInStock(
-            p.Id, p.UnitsInStock));
+            .Select(p => new ProductUnitsInStock(p.Id, p.UnitsInStock));
+
             return await context.ToListAsync(Queryable);
         }
-
-        // ========== CUSTOMERS ==========
 
         public async Task<bool> CustomerExists(string customerId)
         {
@@ -185,18 +212,31 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
 
         public async Task<CustomerDetailDto?> GetCustomerById(string customerId)
         {
-            var queryable =
-                from c in context.Customers
-                where c.Id == customerId
-                select new CustomerDetailDto(
+            // 1. Proyección anónima para traer el binario
+            var rawCustomer = await context.Customers
+                .Where(c => c.Id == customerId)
+                .Select(c => new
+                {
                     c.Id,
                     c.Name,
                     c.CurrentBalance,
-                    c.Email,    // Mapeo nuevo campo
-                    c.Cedula    // Mapeo nuevo campo
-                );
+                    c.Email,
+                    c.Cedula,
+                    c.ProfilePicture // Campo byte[]
+                })
+                .FirstOrDefaultAsync();
 
-            return await context.FirstOrDefaultAync(queryable);
+            if (rawCustomer == null) return null;
+
+            // 2. Convertir a Base64 en memoria
+            return new CustomerDetailDto(
+                rawCustomer.Id,
+                rawCustomer.Name,
+                rawCustomer.CurrentBalance,
+                rawCustomer.Email,
+                rawCustomer.Cedula,
+                rawCustomer.ProfilePicture != null ? Convert.ToBase64String(rawCustomer.ProfilePicture) : null
+            );
         }
 
         public async Task<CustomerPagedResultDto> GetCustomersPaged(GetCustomersQueryDto query)
@@ -207,53 +247,61 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
             {
                 var term = query.SearchTerm.ToLower();
                 baseQuery = baseQuery.Where(c => c.Name.ToLower().Contains(term) ||
-                                                 c.Email.ToLower().Contains(term)); // (Si agregaste filtro por email)
+                                                 c.Email.ToLower().Contains(term));
             }
 
             var totalRecords = await context.CountAsync(baseQuery);
 
-            // --- CAMBIO AQUÍ ---
-            // Antes ordenaba por Name. Lo cambiamos a Id.
             var ordered = query.OrderDescending
                 ? baseQuery.OrderByDescending(c => c.Id)
                 : baseQuery.OrderBy(c => c.Id);
-            // -------------------
 
-            var pagedQuery = ordered
+            // 1. Traer datos crudos (sin DTO todavía)
+            var rawItems = await ordered
                 .Skip((query.PageNumber - 1) * query.PageSize)
                 .Take(query.PageSize)
-                .Select(c => new CustomerListItemDto(
+                .Select(c => new
+                {
                     c.Id,
                     c.Name,
                     c.CurrentBalance,
                     c.Email,
-                    c.Cedula
-                ));
+                    c.Cedula,
+                    c.ProfilePicture // Binario
+                })
+                .ToListAsync();
 
-            var customers = await context.ToListAsync(pagedQuery);
+            // 2. Mapear a DTO con conversión
+            var customers = rawItems.Select(c => new CustomerListItemDto(
+                c.Id,
+                c.Name,
+                c.CurrentBalance,
+                c.Email,
+                c.Cedula,
+                c.ProfilePicture != null ? Convert.ToBase64String(c.ProfilePicture) : null // <--- Conversión
+            )).ToList();
 
             return new CustomerPagedResultDto(customers, totalRecords);
         }
 
-
         public async Task<bool> CustomerNameExists(string name)
         {
-            var queryable = context.Customers
-                                   .Where(c => c.Name.ToLower() == name.ToLower());
+            var queryable = context.Customers.Where(c => c.Name.ToLower() == name.ToLower());
             return await context.AnyAsync(queryable);
         }
 
         public async Task<bool> CustomerNameExists(string name, string excludeCustomerId)
         {
             var queryable = context.Customers
-                                   .Where(c => c.Name.ToLower() == name.ToLower() &&
-                                               c.Id != excludeCustomerId);
+                .Where(c => c.Name.ToLower() == name.ToLower() && c.Id != excludeCustomerId);
             return await context.AnyAsync(queryable);
         }
 
+        // ========== ORDERS (Sin cambios mayores, solo validando) ==========
+
         public async Task<OrderWithDetailsDto?> GetOrderById(int orderId)
         {
-            // 1. Query principal - obtener datos de la orden
+            // Query principal
             var queryable =
                 from order in context.Orders
                 where order.Id == orderId
@@ -272,29 +320,26 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
 
             var orderData = await context.FirstOrDefaultAync(queryable);
 
-            if (orderData == null)
-                return null;
+            if (orderData == null) return null;
 
-            // 2. Obtener los detalles (SIN od.Id porque no existe)
+            // Query detalles
             var detailsQuery =
                 from od in context.OrderDetails
                 where od.OrderId == orderId
                 join product in context.Products on od.ProductId equals product.Id
                 select new OrderDetailItemDto(
-                    od.ProductId,                      // ✅ 1
-                    product.Name,                      // ✅ 2
-                    od.Quantity,                       // ✅ 3
-                    od.UnitPrice,                      // ✅ 4
-                    od.Quantity * od.UnitPrice         // ✅ 5 - Subtotal
+                    od.ProductId,
+                    product.Name,
+                    od.Quantity,
+                    od.UnitPrice,
+                    od.Quantity * od.UnitPrice
                 );
 
             var details = await context.ToListAsync(detailsQuery);
 
-            // 3. Calcular totales
             decimal totalAmount = details.Sum(d => d.Subtotal);
             int itemCount = details.Count();
 
-            // 4. Construir DTO final
             return new OrderWithDetailsDto(
                 orderData.Id,
                 orderData.CustomerId,
@@ -318,7 +363,7 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
 
         public async Task<OrderPagedResultDto> GetOrdersPaged(GetOrdersQueryDto query)
         {
-            // 1. Query base con totales calculados
+            // Query base
             var baseQuery =
                 from order in context.Orders
                 join customer in context.Customers on order.CustomerId equals customer.Id
@@ -340,36 +385,26 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                     ItemCount = itemCount
                 };
 
-            // 2. Aplicar filtros
+            // Filtros
             if (!string.IsNullOrWhiteSpace(query.CustomerId))
-            {
                 baseQuery = baseQuery.Where(x => x.CustomerId == query.CustomerId);
-            }
 
             if (query.FromDate.HasValue)
-            {
                 baseQuery = baseQuery.Where(x => x.OrderDate >= query.FromDate.Value);
-            }
 
             if (query.ToDate.HasValue)
-            {
                 baseQuery = baseQuery.Where(x => x.OrderDate <= query.ToDate.Value);
-            }
 
             if (query.MinAmount.HasValue)
-            {
                 baseQuery = baseQuery.Where(x => x.TotalAmount >= query.MinAmount.Value);
-            }
 
             if (query.MaxAmount.HasValue)
-            {
                 baseQuery = baseQuery.Where(x => x.TotalAmount <= query.MaxAmount.Value);
-            }
 
-            // 3. Contar total
+            // Contar
             var totalCount = await context.CountAsync(baseQuery);
 
-            // 4. Aplicar ordenamiento
+            // Ordenamiento
             baseQuery = query.OrderBy?.ToLower() switch
             {
                 "customer" => query.OrderDescending
@@ -383,14 +418,15 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                     : baseQuery.OrderBy(x => x.OrderDate)
             };
 
-            // 5. Aplicar paginación
+            // Paginación
             var pagedQuery = baseQuery
                 .Skip((query.PageNumber - 1) * query.PageSize)
                 .Take(query.PageSize);
 
-            // 6. Ejecutar y mapear
+            // Ejecución
             var ordersData = await context.ToListAsync(pagedQuery);
 
+            // Mapeo
             var items = ordersData.Select(o => new OrderListItemDto(
                 o.Id,
                 o.CustomerId,
@@ -411,5 +447,4 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
             };
         }
     }
-
 }

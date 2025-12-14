@@ -11,8 +11,6 @@ public static class EndpointsContainer
         app.UseMembershipUsersEndpoints();
         app.UseProductsController();
         app.UseCustomersController();
-        app.UsePerformanceProductsController();
-        app.UsePerformanceCustomersController();
         app.UseLogsController();
         app.MapControllers();
 

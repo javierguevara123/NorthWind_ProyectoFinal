@@ -6,7 +6,8 @@
         decimal currentBalance,
         string email,      // Nuevo
         string cedula,     // Nuevo
-        string password)   // Nuevo (Texto plano)
+        string password,
+        string? profilePictureBase64)   // Nuevo (Texto plano)
     {
         public string Id => id;
         public string Name => name;
@@ -14,5 +15,6 @@
         public string Email => email;
         public string Cedula => cedula;
         public string Password => password;
+        public string? ProfilePictureBase64 => profilePictureBase64;
     }
 }

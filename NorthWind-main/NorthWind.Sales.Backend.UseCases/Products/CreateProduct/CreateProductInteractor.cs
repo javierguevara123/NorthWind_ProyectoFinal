@@ -31,12 +31,33 @@ namespace NorthWind.Sales.Backend.UseCases.Products.CreateProduct
                     CreateProductMessages.StartingProductCreation,
                     userService.UserName));
 
+            // 3. Lógica de Conversión de Imagen (Base64 -> Bytes)
+            byte[]? imageBytes = null;
+            if (!string.IsNullOrEmpty(dto.ProfilePictureBase64))
+            {
+                try
+                {
+                    // Limpiar encabezado si viene (data:image/png;base64,...)
+                    var base64Clean = dto.ProfilePictureBase64.Contains(",")
+                        ? dto.ProfilePictureBase64.Split(',')[1]
+                        : dto.ProfilePictureBase64;
+
+                    imageBytes = Convert.FromBase64String(base64Clean);
+                }
+                catch
+                {
+                    // Si falla, guardamos null
+                    imageBytes = null;
+                }
+            }
+
             // ⬅️ Crea Product de DOMINIO (Capa 2)
             var product = new Product
             {
                 Name = dto.Name,
                 UnitsInStock = dto.UnitsInStock,
-                UnitPrice = dto.UnitPrice
+                UnitPrice = dto.UnitPrice,
+                ProfilePicture = imageBytes
             };
 
             try

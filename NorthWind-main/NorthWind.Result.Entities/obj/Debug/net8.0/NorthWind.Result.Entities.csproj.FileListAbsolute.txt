@@ -55,3 +55,15 @@ D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\n
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\refint\NorthWind.Result.Entities.dll
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.pdb
 D:\AppMoviles\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\ref\NorthWind.Result.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\bin\Debug\net8.0\NorthWind.Result.Entities.deps.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\bin\Debug\net8.0\NorthWind.Result.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\bin\Debug\net8.0\NorthWind.Result.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.AssemblyInfoInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.AssemblyInfo.cs
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.csproj.CoreCompileInputs.cache
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.sourcelink.json
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\refint\NorthWind.Result.Entities.dll
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.pdb
+D:\SUPLETORIO\PROYECTO\ProyectoFinal\NorthWind-main\NorthWind.Result.Entities\obj\Debug\net8.0\ref\NorthWind.Result.Entities.dll

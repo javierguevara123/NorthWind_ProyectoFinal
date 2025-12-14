@@ -8,7 +8,8 @@ public class ProductDto(
     int id,
     string name,
     short unitsInStock,
-    decimal unitPrice)
+    decimal unitPrice,
+    string? profilePictureBase64)
 {
     public int Id => id;
     public string Name => name;
@@ -18,4 +19,5 @@ public class ProductDto(
     // Propiedades calculadas (opcional)
     public decimal TotalValue => unitsInStock * unitPrice;
     public bool IsLowStock => unitsInStock < 10;
+    public string? ProfilePictureBase64 => profilePictureBase64;
 }

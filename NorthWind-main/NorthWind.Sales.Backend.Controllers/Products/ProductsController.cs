@@ -13,44 +13,41 @@ using NorthWind.Sales.Entities.Dtos.Products.UpdateProduct;
 
 namespace Microsoft.AspNetCore.Builder;
 
-/// <summary>
-/// Controller consolidado para todos los endpoints de productos.
-/// </summary>
 public static class ProductsController
 {
     public static WebApplication UseProductsController(this WebApplication app)
     {
-        // Definimos los grupos de roles para reutilizar y evitar errores de escritura
-        const string ROLES_LECTURA = "SuperUser,Administrator,Employee";
+        // ✅ CAMBIO: Agregamos "Customer" aquí para que puedan ver productos
+        const string ROLES_LECTURA = "SuperUser,Administrator,Employee,Customer";
         const string ROLES_ESCRITURA = "SuperUser,Administrator";
 
-        // GET: Obtener lista (Permitido para todos: SuperUser, Admin y Employee)
+        // GET: Obtener lista
         app.MapGet("/api/products", GetProducts)
             .WithName("GetProducts")
             .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_LECTURA })
             .Produces<PagedResultDto<ProductDto>>(StatusCodes.Status200OK);
 
-        // GET: Obtener por ID (Permitido para todos)
+        // GET: Obtener por ID
         app.MapGet(Endpoints.GetProductById, GetProductById)
             .WithName("GetProductById")
             .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_LECTURA })
             .Produces<ProductDto>(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status404NotFound);
 
-        // POST: Crear (Solo SuperUser y Administrator)
+        // POST: Crear
         app.MapPost(Endpoints.CreateProduct, CreateProduct)
             .WithName("CreateProduct")
             .Produces<int>(StatusCodes.Status201Created)
             .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_ESCRITURA });
 
-        // PUT: Actualizar (Solo SuperUser y Administrator)
+        // PUT: Actualizar
         app.MapPut(Endpoints.UpdateProduct, UpdateProduct)
             .WithName("UpdateProduct")
             .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_ESCRITURA })
             .Produces(StatusCodes.Status200OK)
             .Produces(StatusCodes.Status400BadRequest);
 
-        // DELETE: Eliminar (Solo SuperUser y Administrator)
+        // DELETE: Eliminar
         app.MapDelete(Endpoints.DeleteProduct, DeleteProduct)
             .WithName("DeleteProduct")
             .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_ESCRITURA })

@@ -1,7 +1,9 @@
 ﻿
+using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.Login;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Orders.DeleteOrder;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Orders.GetOrderById;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Orders.GetOrders;
+using NorthWind.Sales.Backend.UseCases.Customers.Login;
 using NorthWind.Sales.Backend.UseCases.Orders.DeleteOrder;
 using NorthWind.Sales.Backend.UseCases.Orders.GetOrderById;
 using NorthWind.Sales.Backend.UseCases.Orders.GetOrders;
@@ -32,6 +34,8 @@ public static class DependencyContainer
         services.AddScoped<IGetOrderByIdInputPort, GetOrderByIdInteractor>();
         services.AddScoped<IGetOrdersInputPort, GetOrdersInteractor>();
         services.AddScoped<IDeleteOrderInputPort, DeleteOrderInteractor>();
+
+        services.AddScoped<ILoginCustomerInputPort, LoginCustomerInteractor>();
 
 
         services.AddModelValidator<CreateOrderDto, CreateOrderCustomerValidator>();

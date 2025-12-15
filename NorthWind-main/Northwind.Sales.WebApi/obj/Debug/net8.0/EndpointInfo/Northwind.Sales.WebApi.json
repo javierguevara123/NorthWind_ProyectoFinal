@@ -5,6 +5,67 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/customers/register": {
+      "post": {
+        "tags": [
+          "CustomersController"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomerDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/customers/login": {
+      "post": {
+        "tags": [
+          "CustomersController"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginCustomerDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginResponseDto"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          }
+        }
+      }
+    },
     "/CreateCustomer": {
       "post": {
         "tags": [
@@ -651,6 +712,9 @@
                 }
               }
             }
+          },
+          "403": {
+            "description": "Forbidden"
           }
         }
       }
@@ -806,132 +870,6 @@
           },
           "404": {
             "description": "Not Found"
-          }
-        }
-      }
-    },
-    "/api/performance/customers/insert": {
-      "post": {
-        "tags": [
-          "PerformanceCustomersController"
-        ],
-        "operationId": "TestInsertCustomers",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomersPerformanceRequestDto"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CustomersPerformanceResultDto"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        }
-      }
-    },
-    "/api/performance/customers/select": {
-      "post": {
-        "tags": [
-          "PerformanceCustomersController"
-        ],
-        "operationId": "TestSelectCustomers",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomersPerformanceRequestDto"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CustomersPerformanceResultDto"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/performance/products/insert": {
-      "post": {
-        "tags": [
-          "PerformanceProductsController"
-        ],
-        "operationId": "TestInsertProducts",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProductsPerformanceRequestDto"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProductsPerformanceResultDto"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        }
-      }
-    },
-    "/api/performance/products/select": {
-      "post": {
-        "tags": [
-          "PerformanceProductsController"
-        ],
-        "operationId": "TestSelectProducts",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ProductsPerformanceRequestDto"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProductsPerformanceResultDto"
-                }
-              }
-            }
           }
         }
       }
@@ -1193,6 +1131,10 @@
           "password": {
             "type": "string",
             "nullable": true
+          },
+          "profilePictureBase64": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1255,13 +1197,17 @@
             "type": "string",
             "nullable": true
           },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          },
           "unitsInStock": {
             "type": "integer",
             "format": "int32"
           },
-          "unitPrice": {
-            "type": "number",
-            "format": "double"
+          "profilePictureBase64": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1288,6 +1234,10 @@
           "cedula": {
             "type": "string",
             "nullable": true
+          },
+          "profilePictureBase64": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1305,38 +1255,6 @@
           "totalRecords": {
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CustomersPerformanceRequestDto": {
-        "type": "object",
-        "properties": {
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CustomersPerformanceResultDto": {
-        "type": "object",
-        "properties": {
-          "operation": {
-            "type": "string",
-            "nullable": true
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "elapsedMilliseconds": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1439,6 +1357,38 @@
           "pageSize": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginCustomerDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginResponseDto": {
+        "type": "object",
+        "properties": {
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "customerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1625,6 +1575,10 @@
           "isLowStock": {
             "type": "boolean",
             "readOnly": true
+          },
+          "profilePictureBase64": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1667,38 +1621,6 @@
         },
         "additionalProperties": false
       },
-      "ProductsPerformanceRequestDto": {
-        "type": "object",
-        "properties": {
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "ProductsPerformanceResultDto": {
-        "type": "object",
-        "properties": {
-          "operation": {
-            "type": "string",
-            "nullable": true
-          },
-          "quantity": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "elapsedMilliseconds": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "UnlockUserDto": {
         "type": "object",
         "properties": {
@@ -1731,6 +1653,14 @@
           "cedula": {
             "type": "string",
             "nullable": true
+          },
+          "profilePictureBase64": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1753,6 +1683,10 @@
           "unitPrice": {
             "type": "number",
             "format": "double"
+          },
+          "profilePictureBase64": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

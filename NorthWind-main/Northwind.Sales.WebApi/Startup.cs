@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Northwind.Sales.WebApi.Extensions;
+using Northwind.Sales.WebApi.Options;
+using Northwind.Sales.WebApi.Services;
 using NorthWind.Membership.Backend.AspNetIdentity.Options;
 using NorthWind.Membership.Backend.AspNetIdentity.Services;
 using NorthWind.Membership.Backend.Core.Middleware;
 using NorthWind.Membership.Backend.Core.Options;
+using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Common;
 using NorthWind.Sales.Backend.Controllers.Logs;
 using NorthWind.Sales.Backend.DataContexts.EFCore.Options;
 using NorthWind.Sales.Backend.IoC;
@@ -24,6 +27,13 @@ internal static class Startup
     {
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGenBearer();
+
+        // 1. Configurar Opciones
+        builder.Services.Configure<SalesJwtOptions>(
+            builder.Configuration.GetSection(SalesJwtOptions.SectionName));
+
+        // 2. Registrar Servicio JWT
+        builder.Services.AddScoped<IJwtService, JwtService>();
 
         // --- AGREGAR ESTE BLOQUE ---
         // Esto es OBLIGATORIO para que Swagger encuentre los controladores en otro proyecto
@@ -76,6 +86,8 @@ internal static class Startup
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+        app.UseStaticFiles();
+
 
         // Inicializar roles y SuperUser
         using (var scope = app.Services.CreateScope())

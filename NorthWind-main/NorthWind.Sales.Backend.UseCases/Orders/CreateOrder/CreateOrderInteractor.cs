@@ -27,60 +27,51 @@ namespace NorthWind.Sales.Backend.UseCases.Orders.CreateOrder;
 //          el "OutputPort" le debe pasar al "Presenter" los datos que este debe
 //          transformar-convertir y luego devolver al "Controller" para que algún agente
 //          externo los utilice.
-//
-//
-//  Por lo tanto el "Interactor" que "necesita" para realizar su trabajo:
-//  1).- Utiliza o necesita de un "InputPort" porque este le pasa los datos (Dto) y debe implentar
-//       los métodos de esta "Interface" para que este pueda ejecutar el caso de uso "Crear orden".
-//  2).- Utiliza o necesita de un repositorio para realizar la lógica de la persistencia de datos.
-//  3).  Utiliza o necesita de un "OutputPort" porque por medio o a través del "OutputPort" debe
-//       regresar el resultadoo o datos de salida al "Presenter" una vez ejecutada la lógica del
-//       caso de uso "Crear orden".
-//
-//  RESUMEN: El "Interactor" no sabe que clase lo va a utilizar, su función es:
-//           1).- Procesar el caso de uso "Crear orden" con los datos que le pasa el "InputPort".
-//           2).- Realizar la persistencia de los datos para lo cual necesita de un "Repository" y.
-//           3).- Regresar el resultado del caso de uso al "OutputPort", el cual debe pasar los
-//                datos al "Presenter", datos que este debe transformar-convertir y luego devolver
-//                al "Controller" para que algún agente externo los utilice.
-//
-//  NOTA: Objetos necesarios:
-//        1).- Un "InputPort" que tiene los datos, además esta interfaz tiene el o los métodos
-//             que el "Interactor" debe implementar para procesar el caso de uso "Crear orden"
-//             esto se muestra en el método "Handle(CreateOrderDto orderDto)".
-//        2).- Un "outputPort" y un "repository" los cuales se los pasa en el "Constructor"
-//             mediante la técnica-mecanismo de "Inyección de dependencias a través del
-//             constructor", "outputPort, repository".
 
-internal class CreateOrderInteractor(ICreateOrderOutputPort outputPort,
-                                     ICommandsRepository repository,
-                                     IModelValidatorHub<CreateOrderDto> modelValidatorHub,
-                                     IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub,
-                                     IDomainLogger domainLogger,
-                                     IDomainTransaction domainTransaction,
-                                     IUserService userService) : ICreateOrderInputPort
+internal class CreateOrderInteractor(
+    ICreateOrderOutputPort outputPort,
+    ICommandsRepository repository,
+    IModelValidatorHub<CreateOrderDto> modelValidatorHub,
+    IDomainEventHub<SpecialOrderCreatedEvent> domainEventHub,
+    IDomainLogger domainLogger,
+    IDomainTransaction domainTransaction,
+    IUserService userService) : ICreateOrderInputPort
 {
     public async Task Handle(CreateOrderDto orderDto)
     {
+        // 1. Validar autenticación
         GuardUser.AgainstUnauthenticated(userService);
-        await GuardModel.AgainstNotValid(modelValidatorHub, orderDto);
-        await domainLogger.LogInformation(new DomainLog(CreateOrderMessages.StartingPurchaseOrderCreation, userService.UserName));
 
+        // 2. Validar modelo de entrada
+        await GuardModel.AgainstNotValid(modelValidatorHub, orderDto);
+
+        // ✅ CORRECCIÓN DE SEGURIDAD (Manejo de UserName nulo)
+        // Intentamos obtener el nombre del usuario logueado.
+        // Si es null (ej: Cliente JWT sin claim 'Name'), usamos el CustomerId del DTO.
+        // Si aun así falla, usamos "Anonimo".
+        string currentUserName = !string.IsNullOrEmpty(userService.UserName)
+            ? userService.UserName
+            : (orderDto.CustomerId ?? "Anonimo");
+
+        // Log de inicio
+        await domainLogger.LogInformation(new DomainLog(CreateOrderMessages.StartingPurchaseOrderCreation, currentUserName));
+
+        // 3. Crear el Agregado
         OrderAggregate Order = OrderAggregate.From(orderDto);
 
-        Order.EmployeeId = userService.UserName;
+        // Asignamos el EmployeeId con el usuario actual (o el CustomerId si es autopedido)
+        Order.EmployeeId = currentUserName;
 
         try
         {
-            // 1. INICIAR LA TRANSACCIÓN
+            // 4. INICIAR LA TRANSACCIÓN
             domainTransaction.BeginTransaction();
 
-            // 2. CONCURRENCIA PESIMISTA: Obtener y Bloquear Productos (UPDLOCK)
-            // Esto asegura que nadie más pueda modificar estos productos mientras validamos y actualizamos.
+            // 5. CONCURRENCIA PESIMISTA: Obtener y Bloquear Productos (UPDLOCK)
             var productIds = Order.OrderDetails.Select(d => d.ProductId).ToList();
             var productsInDb = await repository.GetProductsWithLock(productIds);
 
-            // 3. VALIDAR STOCK Y ACTUALIZAR EN MEMORIA
+            // 6. VALIDAR STOCK Y ACTUALIZAR EN MEMORIA
             foreach (var detail in Order.OrderDetails)
             {
                 var product = productsInDb.FirstOrDefault(p => p.Id == detail.ProductId);
@@ -100,27 +91,28 @@ internal class CreateOrderInteractor(ICreateOrderOutputPort outputPort,
                 // Lógica de Negocio: Restar Stock
                 var nuevoStock = (short)(product.UnitsInStock - detail.Quantity);
 
-                // 4. PREPARAR ACTUALIZACIÓN EN EL REPOSITORIO
-                // Esto prepara el UPDATE en el contexto de EF Core
+                // 7. PREPARAR ACTUALIZACIÓN EN EL REPOSITORIO
                 await repository.UpdateProductStock(product.Id, nuevoStock);
             }
 
-            // 5. CREAR LA ORDEN (Prepara el INSERT en SQL)
+            // 8. CREAR LA ORDEN (Prepara el INSERT en SQL)
             await repository.CreateOrder(Order);
 
-            // 6. GUARDAR TODOS LOS CAMBIOS (Unit of Work)
-            // Aquí se ejecutan los UPDATE de productos y el INSERT de la orden en una sola ida a la BD
+            // 9. GUARDAR TODOS LOS CAMBIOS (Unit of Work)
             await repository.SaveChanges();
 
-            await domainLogger.LogInformation(new DomainLog(string.Format(
-                CreateOrderMessages.PurchaseOrderCreatedTemplate, Order.Id), userService.UserName));
+            // Log de éxito (Usando el nombre seguro)
+            await domainLogger.LogInformation(new DomainLog(
+                string.Format(CreateOrderMessages.PurchaseOrderCreatedTemplate, Order.Id),
+                currentUserName));
 
-            // 7. CONFIRMAR TRANSACCIÓN (Libera los bloqueos UPDLOCK)
+            // 10. CONFIRMAR TRANSACCIÓN
             domainTransaction.CommitTransaction();
 
-            // 8. NOTIFICAR ÉXITO
+            // 11. NOTIFICAR ÉXITO AL PRESENTER
             await outputPort.Handle(Order);
 
+            // 12. EVENTOS DE DOMINIO (Ej: Enviar correo si es orden especial)
             if (new SpecialOrderSpecification().IsSatisfiedBy(Order))
             {
                 await domainEventHub.Raise(new SpecialOrderCreatedEvent(Order.Id, Order.OrderDetails.Count));
@@ -128,12 +120,16 @@ internal class CreateOrderInteractor(ICreateOrderOutputPort outputPort,
         }
         catch (Exception ex)
         {
-            // 9. SI ALGO FALLA, DESHACER TODO
+            // 13. MANEJO DE ERRORES (Rollback)
             domainTransaction.RollbackTransaction();
 
-            string Information = string.Format(CreateOrderMessages.OrderCreationCancelledTemplate, Order.Id);
-            // Loguear el error real para depuración
-            await domainLogger.LogInformation(new DomainLog($"{Information}. Error: {ex.Message}", userService.UserName));
+            string information = string.Format(CreateOrderMessages.OrderCreationCancelledTemplate, Order.Id);
+
+            // Log de error (Usando el nombre seguro)
+            await domainLogger.LogInformation(new DomainLog(
+                $"{information}. Error: {ex.Message}",
+                currentUserName));
+
             throw;
         }
     }

@@ -1,5 +1,6 @@
 ﻿using NorthWind.Sales.Entities.Dtos.Customers.GetCustomerById;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomers;
+using NorthWind.Sales.Entities.Dtos.Customers.Login;
 using NorthWind.Sales.Entities.Dtos.Orders.GetOrderById;  // ← AGREGAR
 using NorthWind.Sales.Entities.Dtos.Orders.GetOrders;
 using NorthWind.Sales.Entities.Dtos.Products.GetProducts;
@@ -42,5 +43,7 @@ namespace NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories
         /// Verifica si una orden existe por su ID.
         /// </summary>
         Task<bool> OrderExists(int orderId);
+
+        Task<CustomerCredentialDto?> GetCustomerCredentialsByEmail(string email);
     }
 }

@@ -71,6 +71,59 @@
     "EndpointName": "GetCustomers"
   },
   {
+    "ContainingType": "Microsoft.AspNetCore.Builder.CustomersController",
+    "Method": "LoginCustomer",
+    "RelativePath": "api/customers/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "NorthWind.Sales.Entities.Dtos.Customers.Login.LoginCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NorthWind.Sales.Entities.Dtos.Customers.Login.LoginResponseDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 401
+      }
+    ]
+  },
+  {
+    "ContainingType": "Microsoft.AspNetCore.Builder.CustomersController",
+    "Method": "RegisterCustomer",
+    "RelativePath": "api/customers/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDto",
+        "Type": "NorthWind.Sales.Entities.Dtos.Customers.CreateCustomer.CreateCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "NorthWind.Sales.Backend.Controllers.Logs.LogsController",
     "Method": "GetDomainLogs",
     "RelativePath": "api/Logs/domain",
@@ -196,116 +249,6 @@
       }
     ],
     "EndpointName": "GetOrders"
-  },
-  {
-    "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceCustomersController",
-    "Method": "TestInsertCustomers",
-    "RelativePath": "api/performance/customers/insert",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceRequestDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceResultDto",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 400
-      }
-    ],
-    "EndpointName": "TestInsertCustomers"
-  },
-  {
-    "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceCustomersController",
-    "Method": "TestSelectCustomers",
-    "RelativePath": "api/performance/customers/select",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceRequestDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceCustomersController\u002BCustomersPerformanceResultDto",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "TestSelectCustomers"
-  },
-  {
-    "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceProductsController",
-    "Method": "TestInsertProducts",
-    "RelativePath": "api/performance/products/insert",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceProductsController\u002BProductsPerformanceRequestDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceProductsController\u002BProductsPerformanceResultDto",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 400
-      }
-    ],
-    "EndpointName": "TestInsertProducts"
-  },
-  {
-    "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceProductsController",
-    "Method": "TestSelectProducts",
-    "RelativePath": "api/performance/products/select",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceProductsController\u002BProductsPerformanceRequestDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Builder.PerformanceProductsController\u002BProductsPerformanceResultDto",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "TestSelectProducts"
   },
   {
     "ContainingType": "Microsoft.AspNetCore.Builder.PerformanceUsersController\u002B\u003C\u003Ec",
@@ -489,6 +432,11 @@
           "application/json"
         ],
         "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 403
       }
     ],
     "EndpointName": "CreateOrder"

@@ -1,14 +1,16 @@
-﻿
+﻿using Microsoft.AspNetCore.Authorization; // 👈 Importante para AuthorizeAttribute
 using Microsoft.AspNetCore.Http;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.CreateCustomer;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.DeleteCustomer;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.GetCustomerById;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.GetCustomers;
+using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.Login;
 using NorthWind.Sales.Backend.BusinessObjects.Interfaces.Customers.UpdateCustomer;
 using NorthWind.Sales.Entities.Dtos.Customers.CreateCustomer;
 using NorthWind.Sales.Entities.Dtos.Customers.DeleteCustomer;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomerById;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomers;
+using NorthWind.Sales.Entities.Dtos.Customers.Login;
 using NorthWind.Sales.Entities.Dtos.Customers.UpdateCustomer;
 
 namespace Microsoft.AspNetCore.Builder;
@@ -17,42 +19,104 @@ public static class CustomersController
 {
     public static WebApplication UseCustomersController(this WebApplication app)
     {
-        // CREATE
-        app.MapPost(Endpoints.CreateCustomer, CreateCustomer)
-           .RequireAuthorization()
+        // 🛡️ DEFINICIÓN DE ROLES
+        const string ROLES_WRITER = "SuperUser,Administrator";
+        const string ROLES_READER = "SuperUser,Administrator,Employee";
+
+        // ==========================================
+        // ✅ ENDPOINTS PÚBLICOS (Login & Register)
+        // ==========================================
+
+        // REGISTER
+        app.MapPost("/api/customers/register", RegisterCustomer)
+           .AllowAnonymous()
            .Produces<string>(StatusCodes.Status200OK);
 
-        // DELETE
+        // LOGIN
+        app.MapPost("/api/customers/login", LoginCustomer)
+           .AllowAnonymous()
+           .Produces<LoginResponseDto>(StatusCodes.Status200OK)
+           .Produces(StatusCodes.Status401Unauthorized);
+
+
+        // ==========================================
+        // 🔒 ENDPOINTS PROTEGIDOS (Roles)
+        // ==========================================
+
+        // CREATE (Solo Escritura)
+        app.MapPost(Endpoints.CreateCustomer, CreateCustomer)
+            .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_WRITER })
+            .Produces<string>(StatusCodes.Status200OK);
+
+        // DELETE (Solo Escritura)
         app.MapDelete(Endpoints.DeleteCustomer, DeleteCustomer)
-           .RequireAuthorization()
-           .WithName("DeleteCustomer");
+            .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_WRITER })
+            .WithName("DeleteCustomer");
 
-        // GET ALL (paginado)
+        // GET ALL (Lectura)
         app.MapGet("/api/customers", GetCustomers)
-           .WithName("GetCustomers")
-           .Produces<CustomerPagedResultDto>(StatusCodes.Status200OK);
+            .WithName("GetCustomers")
+            .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_READER })
+            .Produces<CustomerPagedResultDto>(StatusCodes.Status200OK);
 
-        // GET BY ID
+        // GET BY ID (Lectura)
         app.MapGet(Endpoints.GetCustomerById, GetCustomerById)
-           .RequireAuthorization();
+            .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_READER });
 
-        // UPDATE
+        // UPDATE (Solo Escritura)
         app.MapPut(Endpoints.UpdateCustomer, UpdateCustomer)
-           .RequireAuthorization();
+            .RequireAuthorization(new AuthorizeAttribute { Roles = ROLES_WRITER });
 
         return app;
     }
 
     #region Handlers
-    public static async Task<IResult> CreateCustomer(
-    CreateCustomerDto customerDto,
-    ICreateCustomerInputPort inputPort,
-    ICreateCustomerOutputPort presenter)
+
+    // Handler de Registro
+    public static async Task<IResult> RegisterCustomer(
+        CreateCustomerDto customerDto,
+        ICreateCustomerInputPort inputPort,
+        ICreateCustomerOutputPort presenter)
     {
         await inputPort.Handle(customerDto);
-        return Results.Ok(new { id = presenter.CustomerId });   // ← objeto anónimo
+        return Results.Ok(new
+        {
+            message = "Cliente registrado exitosamente",
+            id = presenter.CustomerId
+        });
     }
 
+    // Handler de Login
+    public static async Task<IResult> LoginCustomer(
+        LoginCustomerDto loginDto,
+        ILoginCustomerInputPort inputPort)
+    {
+        try
+        {
+            var response = await inputPort.Handle(loginDto);
+            return Results.Ok(response);
+        }
+        catch (UnauthorizedAccessException ex)
+        {
+            return Results.Json(new { error = ex.Message }, statusCode: StatusCodes.Status401Unauthorized);
+        }
+        catch (Exception ex)
+        {
+            return Results.Problem($"Error interno: {ex.Message}");
+        }
+    }
+
+    // Handler Create (Admin)
+    public static async Task<IResult> CreateCustomer(
+        CreateCustomerDto customerDto,
+        ICreateCustomerInputPort inputPort,
+        ICreateCustomerOutputPort presenter)
+    {
+        await inputPort.Handle(customerDto);
+        return Results.Ok(new { id = presenter.CustomerId });
+    }
+
+    // Handler Get All
     private static async Task<IResult> GetCustomers(
         [AsParameters] GetCustomersQueryDto query,
         IGetCustomersInputPort inputPort,
@@ -62,18 +126,20 @@ public static class CustomersController
         return Results.Ok(presenter.Result);
     }
 
+    // Handler Delete
     private static async Task DeleteCustomer(
-    string id,  // ← Cambiar de "customerId" a "id"
-    IDeleteCustomerInputPort inputPort,
-    IDeleteCustomerOutputPort presenter)
+        string id,
+        IDeleteCustomerInputPort inputPort,
+        IDeleteCustomerOutputPort presenter)
     {
         var dto = new DeleteCustomerDto(id);
         await inputPort.Handle(dto);
         _ = presenter.CustomerId;
     }
 
+    // Handler Get By ID
     private static async Task<IResult> GetCustomerById(
-        string id,  // ← Cambiar de "customerId" a "id"
+        string id,
         IGetCustomerByIdInputPort inputPort,
         IGetCustomerByIdOutputPort presenter)
     {
@@ -85,8 +151,9 @@ public static class CustomersController
             : Results.Ok(presenter.Customer);
     }
 
+    // Handler Update
     private static async Task<IResult> UpdateCustomer(
-        string id,  // ← Ya está correcto
+        string id,
         UpdateCustomerDto dto,
         IUpdateCustomerInputPort inputPort,
         IUpdateCustomerOutputPort presenter)

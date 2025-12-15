@@ -3,8 +3,100 @@
   "WorkspaceRootPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214052024_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214052024_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\orders\\createorder\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\orders\\createorder\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\order\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\order\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\customers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\customers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\customers\\login\\logincustomerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\customers\\login\\logincustomerinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.businessobjects\\northwind.sales.backend.businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|solutionrelative:northwind.sales.backend.businessobjects\\northwind.sales.backend.businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.membership.backend.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|solutionrelative:northwind.membership.backend.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.repositories\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|solutionrelative:northwind.sales.backend.repositories\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.ioc\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|solutionrelative:northwind.sales.backend.ioc\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.repositories\\repositories\\queriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|solutionrelative:northwind.sales.backend.repositories\\repositories\\queriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.businessobjects\\interfaces\\repositories\\iqueriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|solutionrelative:northwind.sales.backend.businessobjects\\interfaces\\repositories\\iqueriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.entities\\dtos\\customers\\login\\customercredentialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\customers\\login\\customercredentialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.entities\\dtos\\customers\\login\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\customers\\login\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.entities\\dtos\\customers\\login\\logincustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\customers\\login\\logincustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.businessobjects\\interfaces\\common\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|solutionrelative:northwind.sales.backend.businessobjects\\interfaces\\common\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\options\\salesjwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\options\\salesjwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\datacontexts\\northwindcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|solutionrelative:northwind.sales.backend.datacontexts.efcore\\datacontexts\\northwindcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\datacontexts\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|solutionrelative:northwind.sales.backend.datacontexts.efcore\\datacontexts\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|solutionrelative:northwind.sales.backend.datacontexts.efcore\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.repositories\\repositories\\queriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|solutionrelative:northwind.sales.backend.repositories\\repositories\\queriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.ioc\\endpointscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,10 +187,6 @@
       "RelativeMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\customers\\getcustomerbyid\\customerdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\products\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F16510AB-FBFC-480C-9CD0-614AD4B1CE7D}|NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.membership.backend.aspnetidentity\\datacontexts\\northwindmembershipcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16510AB-FBFC-480C-9CD0-614AD4B1CE7D}|NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj|solutionrelative:northwind.membership.backend.aspnetidentity\\datacontexts\\northwindmembershipcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -115,20 +199,12 @@
       "RelativeMoniker": "D:0:0:{F16510AB-FBFC-480C-9CD0-614AD4B1CE7D}|NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj|solutionrelative:northwind.membership.backend.aspnetidentity\\datacontexts\\northwindmembershipcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\services\\northwindsalescommandsdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|solutionrelative:northwind.sales.backend.datacontexts.efcore\\services\\northwindsalescommandsdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.ioc\\northwind.sales.backend.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|solutionrelative:northwind.sales.backend.ioc\\northwind.sales.backend.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\customers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\customers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\customers\\createcustomer\\createcustomerbusinessvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,16 +215,8 @@
       "RelativeMoniker": "D:0:0:{52CA5E2B-85EC-46A4-88A8-36FEEDDA8D25}|NorthWind.Sales.Validators.Entities\\NorthWind.Sales.Validators.Entities.csproj|solutionrelative:northwind.sales.validators.entities\\customers\\createcustomer\\createcustomerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.entities\\dtos\\customers\\getcustomers\\customerlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\customers\\getcustomers\\customerlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\datacontexts\\northwindcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|solutionrelative:northwind.sales.backend.datacontexts.efcore\\datacontexts\\northwindcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.membership.backend.core\\interfaces\\common\\imembershipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -206,10 +274,6 @@
       "RelativeMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|solutionrelative:northwind.membership.backend.core\\interfaces\\userlogin\\iuserloginoutputport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.membership.backend.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|solutionrelative:northwind.membership.backend.core\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.membership.backend.core\\services\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F436052B-8E52-4E44-A7F7-30780F6BAB2F}|NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj|solutionrelative:northwind.membership.backend.core\\services\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -232,18 +296,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.ioc\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|solutionrelative:northwind.sales.backend.ioc\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.ioc\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65DCC69B-6FD1-4AA6-881C-3FEE7EEFAE40}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|solutionrelative:northwind.sales.backend.ioc\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{389CEA0E-E295-4E00-A8B0-EA5AC7407D03}|Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\orders\\createorder\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\orders\\createorder\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.businessobjects\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -314,10 +366,6 @@
       "RelativeMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|solutionrelative:northwind.sales.backend.businessobjects\\interfaces\\repositories\\icommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\order\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\order\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A05FA85-9FB9-4B15-85B5-2C3D87B9C229}|NorthWind.Sales.Backend.Presenters\\NorthWind.Sales.Backend.Presenters.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.presenters\\orders\\createorder\\createorderpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A05FA85-9FB9-4B15-85B5-2C3D87B9C229}|NorthWind.Sales.Backend.Presenters\\NorthWind.Sales.Backend.Presenters.csproj|solutionrelative:northwind.sales.backend.presenters\\orders\\createorder\\createorderpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -334,20 +382,8 @@
       "RelativeMoniker": "D:0:0:{7CEAF7A5-2D8E-4311-B9DD-1D00742594AF}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\orders\\createorder\\createorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.controllers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6D2E52-6BB4-421F-BB0B-31FBB162BB14}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.repositories\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C39A67D1-C798-4885-9DD2-48C3B1847317}|Northwind.Sales.Backend.Repositories\\NorthWind.Sales.Backend.Repositories.csproj|solutionrelative:northwind.sales.backend.repositories\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A05FA85-9FB9-4B15-85B5-2C3D87B9C229}|NorthWind.Sales.Backend.Presenters\\NorthWind.Sales.Backend.Presenters.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.presenters\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A05FA85-9FB9-4B15-85B5-2C3D87B9C229}|NorthWind.Sales.Backend.Presenters\\NorthWind.Sales.Backend.Presenters.csproj|solutionrelative:northwind.sales.backend.presenters\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\orders\\deleteorder\\deleteorderbusinessvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -380,10 +416,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.usecases\\orders\\getorders\\getordersvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30CC0B34-2F66-4BA2-A2A8-93906146D2CF}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\orders\\getorders\\getordersvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.businessobjects\\interfaces\\repositories\\iqueriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|solutionrelative:northwind.sales.backend.businessobjects\\interfaces\\repositories\\iqueriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105BEA43-1277-45B0-927F-6AEF66A094F0}|NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.businessobjects\\interfaces\\orders\\getorders\\igetordersoutputport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -864,6 +896,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F16510AB-FBFC-480C-9CD0-614AD4B1CE7D}|NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.membership.backend.aspnetidentity\\migrations\\20251209040956_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16510AB-FBFC-480C-9CD0-614AD4B1CE7D}|NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj|solutionrelative:northwind.membership.backend.aspnetidentity\\migrations\\20251209040956_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|d:\\supletorio\\proyecto\\proyectofinal\\northwind-main\\northwind.sales.backend.datacontexts.efcore\\migrations\\20251214052024_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6A56EEC-9142-49EC-9A5A-FB80D8F10002}|NorthWind.Sales.Backend.DataContexts.EFCore\\NorthWind.Sales.Backend.DataContexts.EFCore.csproj|solutionrelative:northwind.sales.backend.datacontexts.efcore\\migrations\\20251214052024_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -873,11 +909,297 @@
       "DocumentGroups": [
         {
           "DockedHeight": 254,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:47:58.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Startup.cs",
+              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Startup.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Startup.cs",
+              "RelativeToolTip": "Northwind.Sales.WebApi\\Startup.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwFgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T05:45:46.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\appsettings.json",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\appsettings.json",
+              "RelativeToolTip": "Northwind.Sales.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T15:58:08.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Services\\JwtService.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Services\\JwtService.cs",
+              "RelativeToolTip": "Northwind.Sales.WebApi\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:04:31.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAswJwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:07:25.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateOrderInteractor.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T18:15:19.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Program.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Program.cs",
+              "RelativeToolTip": "Northwind.Sales.WebApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T16:45:47.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T18:31:22.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T02:53:16.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T19:26:05.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginCustomerInteractor.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\Login\\LoginCustomerInteractor.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\Login\\LoginCustomerInteractor.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\Login\\LoginCustomerInteractor.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\Customers\\Login\\LoginCustomerInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:24:19.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NorthWind.Sales.Backend.BusinessObjects",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj",
+              "RelativeToolTip": "NorthWind.Sales.Backend.BusinessObjects\\NorthWind.Sales.Backend.BusinessObjects.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-14T23:31:12.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
+              "RelativeToolTip": "NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T03:12:15.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
+              "RelativeToolTip": "Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T02:52:53.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:47:20.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IQueriesRepository.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAC4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:06:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomerCredentialDto.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\CustomerCredentialDto.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\CustomerCredentialDto.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\CustomerCredentialDto.cs",
+              "RelativeToolTip": "NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\CustomerCredentialDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:22:07.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginResponseDto.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginResponseDto.cs",
+              "RelativeToolTip": "NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:21:49.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginCustomerDto.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginCustomerDto.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginCustomerDto.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginCustomerDto.cs",
+              "RelativeToolTip": "NorthWind.Sales.Entities\\Dtos\\Customers\\Login\\LoginCustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:21:24.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QueriesRepository.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
+              "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
+              "RelativeToolTip": "Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
+              "ViewState": "AgIAAKYBAAAAAAAAAAAAANIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:44:20.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Common\\IJwtService.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Common\\IJwtService.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Common\\IJwtService.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Common\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:20:22.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SalesJwtOptions.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Options\\SalesJwtOptions.cs",
+              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Options\\SalesJwtOptions.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Options\\SalesJwtOptions.cs",
+              "RelativeToolTip": "Northwind.Sales.WebApi\\Options\\SalesJwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:19:36.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 224,
               "Title": "20251214052024_InitialCreate.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214052024_InitialCreate.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214052024_InitialCreate.cs",
@@ -885,25 +1207,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214052024_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T05:20:24.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T05:20:24.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerConfiguration.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T16:46:42.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "UpdateCustomerInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\UpdateCustomer\\UpdateCustomerInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\UpdateCustomer\\UpdateCustomerInteractor.cs",
@@ -911,12 +1219,48 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\Customers\\UpdateCustomer\\UpdateCustomerInteractor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T04:50:17.934Z",
+              "WhenOpened": "2025-12-14T04:50:17.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NorthWindContextFactory.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T03:24:47.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
+              "Title": "NorthWindContext.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContext.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContext.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContext.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T05:21:14.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
+              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T16:46:42.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "CommandsRepository.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Repositories\\CommandsRepository.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Repositories\\CommandsRepository.cs",
@@ -924,12 +1268,11 @@
               "RelativeToolTip": "Northwind.Sales.Backend.Repositories\\Repositories\\CommandsRepository.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAAAIcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T21:44:17.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T21:44:17.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\ProductConfiguration.cs",
@@ -937,12 +1280,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\ProductConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T16:46:45.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T16:46:45.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 28,
               "Title": "UpdateCustomerDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\UpdateCustomer\\UpdateCustomerDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\UpdateCustomer\\UpdateCustomerDto.cs",
@@ -950,12 +1292,11 @@
               "RelativeToolTip": "NorthWind.Sales.Entities\\Dtos\\Customers\\UpdateCustomer\\UpdateCustomerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T15:44:24.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T15:44:24.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 29,
               "Title": "CreateCustomerInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\CreateCustomer\\CreateCustomerInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\CreateCustomer\\CreateCustomerInteractor.cs",
@@ -963,12 +1304,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\Customers\\CreateCustomer\\CreateCustomerInteractor.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAAD8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T15:41:03.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T15:41:03.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 30,
               "Title": "20251214050826_InitialCreate.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214050826_InitialCreate.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214050826_InitialCreate.cs",
@@ -976,12 +1316,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251214050826_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T05:08:27.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T05:08:27.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
               "Title": "OrderDetailConfiguration.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\OrderDetailConfiguration.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\OrderDetailConfiguration.cs",
@@ -989,25 +1328,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\OrderDetailConfiguration.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T04:36:44.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T04:36:44.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QueriesRepository.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
-              "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
-              "RelativeToolTip": "Northwind.Sales.Backend.Repositories\\Repositories\\QueriesRepository.cs",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAAAAMBAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T21:44:20.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 31,
               "Title": "OrderConfiguration.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\OrderConfiguration.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\OrderConfiguration.cs",
@@ -1015,12 +1340,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\OrderConfiguration.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T16:46:43.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T16:46:43.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 33,
               "Title": "EndpointsContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\EndpointsContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.IoC\\EndpointsContainer.cs",
@@ -1028,12 +1352,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.IoC\\EndpointsContainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T03:03:26.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T03:03:26.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 34,
               "Title": "CustomerPagedResultDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomers\\CustomerPagedResultDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomers\\CustomerPagedResultDto.cs",
@@ -1045,7 +1368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 35,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\GetProducts\\ProductDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\GetProducts\\ProductDto.cs",
@@ -1057,7 +1380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 36,
               "Title": "GetProductByIdInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\GetProductById\\GetProductByIdInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\GetProductById\\GetProductByIdInteractor.cs",
@@ -1069,7 +1392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 37,
               "Title": "GetProductByIdValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\GetProductById\\GetProductByIdValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\GetProductById\\GetProductByIdValidator.cs",
@@ -1081,7 +1404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 39,
               "Title": "UpdateProductInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\UpdateProduct\\UpdateProductInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\UpdateProduct\\UpdateProductInteractor.cs",
@@ -1093,7 +1416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 38,
               "Title": "CreateProductInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\CreateProduct\\CreateProductInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\CreateProduct\\CreateProductInteractor.cs",
@@ -1105,7 +1428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 40,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\CreateProduct\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\CreateProduct\\CreateProductDto.cs",
@@ -1117,7 +1440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 41,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Entities\\Product.cs",
@@ -1129,7 +1452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 42,
               "Title": "UpdateProductDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\UpdateProduct\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\UpdateProduct\\UpdateProductDto.cs",
@@ -1141,7 +1464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 43,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Entities\\Product.cs",
@@ -1153,7 +1476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 44,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Entities\\Customer.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Entities\\Customer.cs",
@@ -1165,7 +1488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 45,
               "Title": "CustomerDetailDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomerById\\CustomerDetailDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomerById\\CustomerDetailDto.cs",
@@ -1177,19 +1500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\Products\\ProductsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T04:07:25.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "NorthWindMembershipContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\DataContexts\\NorthWindMembershipContext.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\DataContexts\\NorthWindMembershipContext.cs",
@@ -1201,7 +1512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 48,
               "Title": "NorthWindMembershipContextFactory.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\DataContexts\\NorthWindMembershipContextFactory.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\DataContexts\\NorthWindMembershipContextFactory.cs",
@@ -1213,7 +1524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "NorthWindUser.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\Entities\\NorthWindUser.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\Entities\\NorthWindUser.cs",
@@ -1225,19 +1536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Startup.cs",
-              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Startup.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Startup.cs",
-              "RelativeToolTip": "Northwind.Sales.WebApi\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T05:45:46.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 49,
               "Title": "NorthWindSalesCommandsDataContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Services\\NorthWindSalesCommandsDataContext.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Services\\NorthWindSalesCommandsDataContext.cs",
@@ -1249,7 +1548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 52,
               "Title": "CreateCustomerDtoValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Customers\\CreateCustomer\\CreateCustomerDtoValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Customers\\CreateCustomer\\CreateCustomerDtoValidator.cs",
@@ -1261,19 +1560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\Customers\\CustomersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T19:26:05.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 50,
               "Title": "NorthWind.Sales.Backend.IoC.csproj",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
@@ -1281,12 +1568,11 @@
               "RelativeToolTip": "NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-10T19:26:30.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T19:26:30.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 51,
               "Title": "CreateCustomerBusinessValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\CreateCustomer\\CreateCustomerBusinessValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\CreateCustomer\\CreateCustomerBusinessValidator.cs",
@@ -1298,7 +1584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 53,
               "Title": "CustomerListDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomers\\CustomerListDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomers\\CustomerListDto.cs",
@@ -1310,19 +1596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\appsettings.json",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\appsettings.json",
-              "RelativeToolTip": "Northwind.Sales.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-05T15:58:08.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 215,
+              "DocumentIndex": 223,
               "Title": "20251209040956_InitialCreate.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\Migrations\\20251209040956_InitialCreate.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\Migrations\\20251209040956_InitialCreate.cs",
@@ -1334,7 +1608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 55,
               "Title": "UserRegistrationDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\Dtos\\UserRegistration\\UserRegistrationDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Entities\\Dtos\\UserRegistration\\UserRegistrationDto.cs",
@@ -1346,7 +1620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 54,
               "Title": "IMembershipService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Interfaces\\Common\\IMembershipService.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Interfaces\\Common\\IMembershipService.cs",
@@ -1358,19 +1632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "NorthWindContextFactory.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.DataContexts.EFCore\\DataContexts\\NorthWindContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T03:24:47.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 56,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Dtos\\UserDto.cs",
@@ -1382,7 +1644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 57,
               "Title": "RoleSeeder.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\Services\\RoleSeeder.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\Services\\RoleSeeder.cs",
@@ -1394,7 +1656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 58,
               "Title": "MembershipService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\Services\\MembershipService.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\Services\\MembershipService.cs",
@@ -1406,7 +1668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 60,
               "Title": "GetCustomerByIdValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\GetCustomerById\\GetCustomerByIdValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\GetCustomerById\\GetCustomerByIdValidator.cs",
@@ -1418,7 +1680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 59,
               "Title": "GetCustomerByIdInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\GetCustomerById\\GetCustomerByIdInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\GetCustomerById\\GetCustomerByIdInteractor.cs",
@@ -1430,7 +1692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 61,
               "Title": "20251209034822_InitialCreate.cs",
               "DocumentMoniker": "D:\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251209034822_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppMoviles\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Migrations\\20251209034822_InitialCreate.cs",
@@ -1442,7 +1704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 64,
               "Title": "NorthWindSalesQueriesDataContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Services\\NorthWindSalesQueriesDataContext.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Services\\NorthWindSalesQueriesDataContext.cs",
@@ -1454,7 +1716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 63,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\GlobalUsings.cs",
@@ -1466,7 +1728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 62,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\DependencyContainer.cs",
@@ -1478,7 +1740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 65,
               "Title": "NorthWindDomainLogsDataContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Services\\NorthWindDomainLogsDataContext.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Services\\NorthWindDomainLogsDataContext.cs",
@@ -1490,7 +1752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 66,
               "Title": "ErrorLogConfiguration.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\ErrorLogConfiguration.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Configurations\\ErrorLogConfiguration.cs",
@@ -1502,7 +1764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 71,
               "Title": "NorthWind.Membership.Entities.csproj",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
               "RelativeDocumentMoniker": "NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
@@ -1510,24 +1772,11 @@
               "RelativeToolTip": "NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T03:10:45.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T03:10:45.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
-              "RelativeToolTip": "NorthWind.Membership.Backend.Core\\Services\\JwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T03:12:15.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 68,
               "Title": "TokenBlacklistService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Services\\TokenBlacklistService.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Services\\TokenBlacklistService.cs",
@@ -1539,7 +1788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 67,
               "Title": "IUserLoginOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Interfaces\\UserLogin\\IUserLoginOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Interfaces\\UserLogin\\IUserLoginOutputPort.cs",
@@ -1551,7 +1800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 72,
               "Title": "TokenBlacklistMiddleware.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\Middleware\\TokenBlacklistMiddleware.cs",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\Middleware\\TokenBlacklistMiddleware.cs",
@@ -1563,7 +1812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 70,
               "Title": "NorthWind.Membership.Backend.AspNetIdentity.csproj",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
@@ -1571,12 +1820,11 @@
               "RelativeToolTip": "NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T03:04:30.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T03:04:30.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 69,
               "Title": "NorthWind.Membership.Backend.Core.csproj",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
               "RelativeDocumentMoniker": "NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
@@ -1584,24 +1832,11 @@
               "RelativeToolTip": "NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-09T03:02:30.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T03:02:30.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.IoC\\DependencyContainer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T20:47:20.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 73,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.IoC\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.IoC\\GlobalUsings.cs",
@@ -1613,19 +1848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Program.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Program.cs",
-              "RelativeToolTip": "Northwind.Sales.WebApi\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBZwCQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T16:45:47.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 74,
               "Title": "OrderAggregate.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
@@ -1637,7 +1860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 75,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
@@ -1649,19 +1872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "CreateOrderInteractor.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderInteractor.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAqwEYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:15:19.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 76,
               "Title": "DBOptions.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Options\\DBOptions.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Options\\DBOptions.cs",
@@ -1673,7 +1884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 77,
               "Title": "DomainLogsRepository.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Repositories\\DomainLogsRepository.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Repositories\\DomainLogsRepository.cs",
@@ -1685,7 +1896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 78,
               "Title": "INorthWindDomainLogsDataContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Interfaces\\INorthWindDomainLogsDataContext.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Interfaces\\INorthWindDomainLogsDataContext.cs",
@@ -1697,7 +1908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 79,
               "Title": "ErrorLog.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Entities\\ErrorLog.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Entities\\ErrorLog.cs",
@@ -1709,7 +1920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 80,
               "Title": "LogsEndpoints.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Logs\\LogsEndpoints.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Logs\\LogsEndpoints.cs",
@@ -1721,7 +1932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 81,
               "Title": "LogsController.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Logs\\LogsController.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Logs\\LogsController.cs",
@@ -1733,7 +1944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 82,
               "Title": "ErrorLog.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\ValueObjects\\ErrorLog.cs",
               "RelativeDocumentMoniker": "NorthWind.DomainLogs.Entities\\ValueObjects\\ErrorLog.cs",
@@ -1745,7 +1956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 83,
               "Title": "DomainLog.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\ValueObjects\\DomainLog.cs",
               "RelativeDocumentMoniker": "NorthWind.DomainLogs.Entities\\ValueObjects\\DomainLog.cs",
@@ -1757,7 +1968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 84,
               "Title": "DomainLogger.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\Services\\DomainLogger.cs",
               "RelativeDocumentMoniker": "NorthWind.DomainLogs.Entities\\Services\\DomainLogger.cs",
@@ -1769,7 +1980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 85,
               "Title": "IDomainLogsRepository.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\Interfaces\\IDomainLogsRepository.cs",
               "RelativeDocumentMoniker": "NorthWind.DomainLogs.Entities\\Interfaces\\IDomainLogsRepository.cs",
@@ -1781,7 +1992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 86,
               "Title": "IDomainLogger.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\Interfaces\\IDomainLogger.cs",
               "RelativeDocumentMoniker": "NorthWind.DomainLogs.Entities\\Interfaces\\IDomainLogger.cs",
@@ -1793,7 +2004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 88,
               "Title": "INorthWindSalesCommandsDataContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Interfaces\\INorthWindSalesCommandsDataContext.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Interfaces\\INorthWindSalesCommandsDataContext.cs",
@@ -1805,7 +2016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 87,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\GlobalUsings.cs",
@@ -1817,7 +2028,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 89,
               "Title": "GuardDBContext.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.DataContexts.EFCore\\Guards\\GuardDBContext.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.DataContexts.EFCore\\Guards\\GuardDBContext.cs",
@@ -1829,7 +2040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 90,
               "Title": "ICommandsRepository.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\ICommandsRepository.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\ICommandsRepository.cs",
@@ -1841,19 +2052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\Order\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T03:47:58.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 91,
               "Title": "CreateOrderPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Orders\\CreateOrder\\CreateOrderPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Orders\\CreateOrder\\CreateOrderPresenter.cs",
@@ -1865,7 +2064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 92,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Entities\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Entities\\OrderDetail.cs",
@@ -1877,7 +2076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 93,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\CreateOrder\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\CreateOrder\\CreateOrderDto.cs",
@@ -1889,19 +2088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\GlobalUsings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T18:31:22.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 94,
               "Title": "CreateOrderDetailDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\CreateOrder\\CreateOrderDetailDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\CreateOrder\\CreateOrderDetailDto.cs",
@@ -1913,19 +2100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
-              "RelativeToolTip": "Northwind.Sales.Backend.Repositories\\DependencyContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T02:52:53.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 95,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\DependencyContainer.cs",
@@ -1937,19 +2112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "DependencyContainer.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\DependencyContainer.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwCwAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T02:53:16.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 96,
               "Title": "DeleteOrderBusinessValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\DeleteOrder\\DeleteOrderBusinessValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\DeleteOrder\\DeleteOrderBusinessValidator.cs",
@@ -1961,7 +2124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 97,
               "Title": "DeleteOrderInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\DeleteOrder\\DeleteOrderInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\DeleteOrder\\DeleteOrderInteractor.cs",
@@ -1973,7 +2136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 98,
               "Title": "DeleteOrderPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Orders\\DeleteOrder\\DeleteOrderPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Orders\\DeleteOrder\\DeleteOrderPresenter.cs",
@@ -1985,7 +2148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 99,
               "Title": "IDeleteOrderInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\DeleteOrder\\IDeleteOrderInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\DeleteOrder\\IDeleteOrderInputPort.cs",
@@ -1997,7 +2160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 100,
               "Title": "IDeleteOrderOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\DeleteOrder\\IDeleteOrderOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\DeleteOrder\\IDeleteOrderOutputPort.cs",
@@ -2009,7 +2172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 101,
               "Title": "GetOrdersPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Orders\\GetOrders\\GetOrdersPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Orders\\GetOrders\\GetOrdersPresenter.cs",
@@ -2021,7 +2184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 102,
               "Title": "GetOrdersInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\GetOrders\\GetOrdersInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\GetOrders\\GetOrdersInteractor.cs",
@@ -2033,7 +2196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 103,
               "Title": "GetOrdersValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\GetOrders\\GetOrdersValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\GetOrders\\GetOrdersValidator.cs",
@@ -2045,7 +2208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 104,
               "Title": "IGetOrdersOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrders\\IGetOrdersOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrders\\IGetOrdersOutputPort.cs",
@@ -2057,7 +2220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 105,
               "Title": "IGetOrdersInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrders\\IGetOrdersInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrders\\IGetOrdersInputPort.cs",
@@ -2069,19 +2232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "IQueriesRepository.cs",
-              "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
-              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
-              "ToolTip": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
-              "RelativeToolTip": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Repositories\\IQueriesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABBwAsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T23:06:04.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 106,
               "Title": "OrderPagedResultDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrders\\OrderPagedResultDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrders\\OrderPagedResultDto.cs",
@@ -2093,7 +2244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 107,
               "Title": "OrderListItemDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrders\\OrderListItemDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrders\\OrderListItemDto.cs",
@@ -2105,7 +2256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 108,
               "Title": "GetOrdersQueryDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrders\\GetOrdersQueryDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrders\\GetOrdersQueryDto.cs",
@@ -2117,7 +2268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 109,
               "Title": "GetOrderByIdDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrderById\\GetOrderByIdDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrderById\\GetOrderByIdDto.cs",
@@ -2129,7 +2280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 110,
               "Title": "GetOrderByIdValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\GetOrderById\\GetOrderByIdValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\GetOrderById\\GetOrderByIdValidator.cs",
@@ -2141,7 +2292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 111,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\GlobalUsings.cs",
@@ -2153,7 +2304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 112,
               "Title": "GetOrderByIdPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Orders\\GetOrderById\\GetOrderByIdPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Orders\\GetOrderById\\GetOrderByIdPresenter.cs",
@@ -2165,7 +2316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 113,
               "Title": "GetOrderByIdInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\GetOrderById\\GetOrderByIdInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\GetOrderById\\GetOrderByIdInteractor.cs",
@@ -2177,7 +2328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 114,
               "Title": "IGetOrderByIdOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrderById\\IGetOrderByIdOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrderById\\IGetOrderByIdOutputPort.cs",
@@ -2189,7 +2340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 115,
               "Title": "IGetOrderByIdInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrderById\\IGetOrderByIdInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\GetOrderById\\IGetOrderByIdInputPort.cs",
@@ -2201,7 +2352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 117,
               "Title": "OrderDetailItemDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrderById\\OrderDetailItemDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrderById\\OrderDetailItemDto.cs",
@@ -2213,7 +2364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 116,
               "Title": "OrderWithDetailsDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrderById\\OrderWithDetailsDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Orders\\GetOrderById\\OrderWithDetailsDto.cs",
@@ -2225,7 +2376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 118,
               "Title": "ProductDetailDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\GetProductById\\ProductDetailDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\GetProductById\\ProductDetailDto.cs",
@@ -2237,7 +2388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 119,
               "Title": "GetProductByIdPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Products\\GetProductById\\GetProductByIdPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Products\\GetProductById\\GetProductByIdPresenter.cs",
@@ -2249,7 +2400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 120,
               "Title": "PagedResultDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\GetProducts\\PagedResultDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\GetProducts\\PagedResultDto.cs",
@@ -2261,7 +2412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 121,
               "Title": "GetProductsQueryDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\GetProducts\\GetProductsQueryDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\GetProducts\\GetProductsQueryDto.cs",
@@ -2273,7 +2424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 122,
               "Title": "GetCustomersQueryDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomers\\GetCustomersQueryDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomers\\GetCustomersQueryDto.cs",
@@ -2285,7 +2436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 124,
               "Title": "DeleteProductBusinessValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\DeleteProduct\\DeleteProductBusinessValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\DeleteProduct\\DeleteProductBusinessValidator.cs",
@@ -2297,7 +2448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 123,
               "Title": "DeleteProductInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\DeleteProduct\\DeleteProductInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\DeleteProduct\\DeleteProductInteractor.cs",
@@ -2309,7 +2460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 125,
               "Title": "DeleteCustomerInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\DeleteCustomer\\DeleteCustomerInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\DeleteCustomer\\DeleteCustomerInteractor.cs",
@@ -2321,7 +2472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 126,
               "Title": "DeleteCustomerDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\DeleteCustomer\\DeleteCustomerDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\DeleteCustomer\\DeleteCustomerDto.cs",
@@ -2333,7 +2484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 127,
               "Title": "DeleteCustomerBusinessValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\DeleteCustomer\\DeleteCustomerBusinessValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\DeleteCustomer\\DeleteCustomerBusinessValidator.cs",
@@ -2345,7 +2496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 128,
               "Title": "DeleteCustomerPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Customers\\DeleteCustomer\\DeleteCustomerPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Customers\\DeleteCustomer\\DeleteCustomerPresenter.cs",
@@ -2357,7 +2508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 129,
               "Title": "CreateCustomerPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Customers\\CreateCustomer\\CreateCustomerPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Customers\\CreateCustomer\\CreateCustomerPresenter.cs",
@@ -2369,7 +2520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 130,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\GlobalUsings.cs",
@@ -2381,7 +2532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 132,
               "Title": "UpdateCustomerPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Customers\\UpdateCustomer\\UpdateCustomerPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Customers\\UpdateCustomer\\UpdateCustomerPresenter.cs",
@@ -2393,7 +2544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 133,
               "Title": "GetCustomerByIdPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Customers\\GetCustomerById\\GetCustomerByIdPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Customers\\GetCustomerById\\GetCustomerByIdPresenter.cs",
@@ -2405,7 +2556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 131,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\GlobalUsings.cs",
@@ -2417,7 +2568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 134,
               "Title": "GetCustomersPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Customers\\GetCustomer\\GetCustomersPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Customers\\GetCustomer\\GetCustomersPresenter.cs",
@@ -2429,7 +2580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 135,
               "Title": "CreateProductPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Products\\CreateProduct\\CreateProductPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Products\\CreateProduct\\CreateProductPresenter.cs",
@@ -2441,7 +2592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 136,
               "Title": "CreateOrderCustomerValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderCustomerValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderCustomerValidator.cs",
@@ -2453,7 +2604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 137,
               "Title": "ICreateOrderInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\CreateOrder\\ICreateOrderInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\CreateOrder\\ICreateOrderInputPort.cs",
@@ -2465,7 +2616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 138,
               "Title": "ICreateProductInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\CreateProduct\\ICreateProductInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\CreateProduct\\ICreateProductInputPort.cs",
@@ -2477,7 +2628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 139,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\DependencyContainer.cs",
@@ -2489,7 +2640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 140,
               "Title": "GetCustomersInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Customers\\GetCustomer\\GetCustomersInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Customers\\GetCustomer\\GetCustomersInteractor.cs",
@@ -2501,7 +2652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 141,
               "Title": "SpecialOrderCreatedEvent.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\SpecialOrderCreatedEvent.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\SpecialOrderCreatedEvent.cs",
@@ -2513,7 +2664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 142,
               "Title": "CreateOrderProductValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderProductValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\CreateOrderProductValidator.cs",
@@ -2525,7 +2676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 143,
               "Title": "SendEMailWhenSpecialOrderCreatedEventHandler.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\SendEMailWhenSpecialOrderCreatedEventHandler.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Orders\\CreateOrder\\SendEMailWhenSpecialOrderCreatedEventHandler.cs",
@@ -2537,7 +2688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 144,
               "Title": "UpdateProductBusinessValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\UpdateProduct\\UpdateProductBusinessValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\UpdateProduct\\UpdateProductBusinessValidator.cs",
@@ -2549,7 +2700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 145,
               "Title": "GetProductsInteractor.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\GetProducts\\GetProductsInteractor.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\GetProducts\\GetProductsInteractor.cs",
@@ -2561,7 +2712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 146,
               "Title": "CreateProductBusinessValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Products\\CreateProduct\\CreateProductBusinessValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Products\\CreateProduct\\CreateProductBusinessValidator.cs",
@@ -2573,7 +2724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 147,
               "Title": "IUpdateCustomerOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\UpdateCustomer\\IUpdateCustomerOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\UpdateCustomer\\IUpdateCustomerOutputPort.cs",
@@ -2585,7 +2736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 148,
               "Title": "IUpdateCustomerInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\UpdateCustomer\\IUpdateCustomerInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\UpdateCustomer\\IUpdateCustomerInputPort.cs",
@@ -2597,7 +2748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 149,
               "Title": "IGetCustomersOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomers\\IGetCustomersOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomers\\IGetCustomersOutputPort.cs",
@@ -2609,7 +2760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 150,
               "Title": "IGetCustomersInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomers\\IGetCustomersInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomers\\IGetCustomersInputPort.cs",
@@ -2621,7 +2772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 153,
               "Title": "ICreateCustomerOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\CreateCustomer\\ICreateCustomerOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\CreateCustomer\\ICreateCustomerOutputPort.cs",
@@ -2633,7 +2784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 152,
               "Title": "IGetCustomerByIdInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomerById\\IGetCustomerByIdInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomerById\\IGetCustomerByIdInputPort.cs",
@@ -2645,7 +2796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 151,
               "Title": "IGetCustomerByIdOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomerById\\IGetCustomerByIdOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\GetCustomerById\\IGetCustomerByIdOutputPort.cs",
@@ -2657,7 +2808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 154,
               "Title": "IDeleteCustomerOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\DeleteCustomer\\IDeleteCustomerOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\DeleteCustomer\\IDeleteCustomerOutputPort.cs",
@@ -2669,7 +2820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 155,
               "Title": "IDeleteCustomerInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\DeleteCustomer\\IDeleteCustomerInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Customers\\DeleteCustomer\\IDeleteCustomerInputPort.cs",
@@ -2681,7 +2832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 156,
               "Title": "GetCustomerByIdDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomerById\\GetCustomerByIdDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Customers\\GetCustomerById\\GetCustomerByIdDto.cs",
@@ -2693,7 +2844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 157,
               "Title": "UpdateCustomerMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Resources\\UpdateCustomerMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Resources\\UpdateCustomerMessages.resx",
@@ -2704,7 +2855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 158,
               "Title": "DeleteCustomerMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Resources\\DeleteCustomerMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Resources\\DeleteCustomerMessages.resx",
@@ -2715,7 +2866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 159,
               "Title": "CreateCustomerMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Resources\\CreateCustomerMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Resources\\CreateCustomerMessages.resx",
@@ -2726,7 +2877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 160,
               "Title": "UpdateCustomerDtoValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Customers\\UpdateCustomer\\UpdateCustomerDtoValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Customers\\UpdateCustomer\\UpdateCustomerDtoValidator.cs",
@@ -2738,7 +2889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 161,
               "Title": "GuardModel.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Guards\\GuardModel.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Guards\\GuardModel.cs",
@@ -2750,7 +2901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 162,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\DependencyContainer.cs",
@@ -2762,7 +2913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 163,
               "Title": "CreateProductDtoValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Products\\CreateProduct\\CreateProductDtoValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Products\\CreateProduct\\CreateProductDtoValidator.cs",
@@ -2774,7 +2925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 164,
               "Title": "UpdateCustomerMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Resources\\UpdateCustomerMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Resources\\UpdateCustomerMessages.resx",
@@ -2785,7 +2936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 165,
               "Title": "CreateCustomerMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Resources\\CreateCustomerMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Resources\\CreateCustomerMessages.resx",
@@ -2796,7 +2947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 166,
               "Title": "ResultSuccessAndError.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\ResultSuccessAndError.cs",
               "RelativeDocumentMoniker": "NorthWind.Result.Entities\\ResultSuccessAndError.cs",
@@ -2808,7 +2959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 167,
               "Title": "ResultErrorOnly.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\ResultErrorOnly.cs",
               "RelativeDocumentMoniker": "NorthWind.Result.Entities\\ResultErrorOnly.cs",
@@ -2820,7 +2971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 168,
               "Title": "ExceptionDelegatingHandler.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.HttpDelegatingHandlers\\ExceptionDelegatingHandler.cs",
               "RelativeDocumentMoniker": "NorthWind.HttpDelegatingHandlers\\ExceptionDelegatingHandler.cs",
@@ -2832,7 +2983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 169,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.HttpDelegatingHandlers\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.HttpDelegatingHandlers\\DependencyContainer.cs",
@@ -2844,7 +2995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 170,
               "Title": "ValidationError.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\ValueObjects\\ValidationError.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\ValueObjects\\ValidationError.cs",
@@ -2856,7 +3007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 171,
               "Title": "SwaggerExtensions.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Extensions\\SwaggerExtensions.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Extensions\\SwaggerExtensions.cs",
@@ -2868,7 +3019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 172,
               "Title": "CreateProductMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Resources\\CreateProductMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Resources\\CreateProductMessages.resx",
@@ -2879,7 +3030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 174,
               "Title": "IGetProductsInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\GetProducts\\IGetProductsInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\GetProducts\\IGetProductsInputPort.cs",
@@ -2891,7 +3042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 173,
               "Title": "IGetProductsOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\GetProducts\\IGetProductsOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\GetProducts\\IGetProductsOutputPort.cs",
@@ -2903,7 +3054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 175,
               "Title": "UpdateProductMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Resources\\UpdateProductMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Resources\\UpdateProductMessages.resx",
@@ -2914,7 +3065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 176,
               "Title": "UpdateProductDtoValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Products\\UpdateProduct\\UpdateProductDtoValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Products\\UpdateProduct\\UpdateProductDtoValidator.cs",
@@ -2926,7 +3077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 177,
               "Title": "ICreateOrderOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\CreateOrder\\ICreateOrderOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Orders\\CreateOrder\\ICreateOrderOutputPort.cs",
@@ -2938,7 +3089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 178,
               "Title": "IDeleteProductOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\DeleteProduct\\IDeleteProductOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\DeleteProduct\\IDeleteProductOutputPort.cs",
@@ -2950,7 +3101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 179,
               "Title": "IDeleteProductInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\DeleteProduct\\IDeleteProductInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\DeleteProduct\\IDeleteProductInputPort.cs",
@@ -2962,7 +3113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 180,
               "Title": "GetProductsPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Products\\GetProducts\\GetProductsPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Products\\GetProducts\\GetProductsPresenter.cs",
@@ -2974,7 +3125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 181,
               "Title": "ModelValidatorHub.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Services\\ModelValidatorHub.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Services\\ModelValidatorHub.cs",
@@ -2986,7 +3137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 182,
               "Title": "UpdateException.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\Exceptions\\UpdateException.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\Exceptions\\UpdateException.cs",
@@ -2998,7 +3149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 183,
               "Title": "ValidationException.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\Exceptions\\ValidationException.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\Exceptions\\ValidationException.cs",
@@ -3010,7 +3161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 176,
+              "DocumentIndex": 184,
               "Title": "IModelValidatorHub.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Interfaces\\IModelValidatorHub.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Interfaces\\IModelValidatorHub.cs",
@@ -3022,7 +3173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 177,
+              "DocumentIndex": 185,
               "Title": "ValidationExceptionHandler.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\ExceptionHandlers\\ValidationExceptionHandler.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\ExceptionHandlers\\ValidationExceptionHandler.cs",
@@ -3034,7 +3185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 178,
+              "DocumentIndex": 186,
               "Title": "UnauthorizedAccessExceptionHandler.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\ExceptionHandlers\\UnauthorizedAccessExceptionHandler.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\ExceptionHandlers\\UnauthorizedAccessExceptionHandler.cs",
@@ -3046,7 +3197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 179,
+              "DocumentIndex": 187,
               "Title": "UpdateExceptionHandler.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\ExceptionHandlers\\UpdateExceptionHandler.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\ExceptionHandlers\\UpdateExceptionHandler.cs",
@@ -3058,7 +3209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 180,
+              "DocumentIndex": 188,
               "Title": "UnhandledExceptionHandler.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\ExceptionHandlers\\UnhandledExceptionHandler.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\ExceptionHandlers\\UnhandledExceptionHandler.cs",
@@ -3070,7 +3221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 181,
+              "DocumentIndex": 189,
               "Title": "ExceptionMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\Resources\\ExceptionMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\Resources\\ExceptionMessages.resx",
@@ -3081,7 +3232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 182,
+              "DocumentIndex": 190,
               "Title": "HttpContextExtensions.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\Extensions\\HttpContextExtensions.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\Extensions\\HttpContextExtensions.cs",
@@ -3093,7 +3244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 183,
+              "DocumentIndex": 191,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Exceptions.Entities\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.Exceptions.Entities\\DependencyContainer.cs",
@@ -3105,7 +3256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 184,
+              "DocumentIndex": 192,
               "Title": "DiscountType.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Enums\\DiscountType.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Enums\\DiscountType.cs",
@@ -3117,7 +3268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 185,
+              "DocumentIndex": 193,
               "Title": "DomainTransaction.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Transactions.Entities\\Services\\DomainTransaction.cs",
               "RelativeDocumentMoniker": "NorthWind.Transactions.Entities\\Services\\DomainTransaction.cs",
@@ -3129,7 +3280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 186,
+              "DocumentIndex": 194,
               "Title": "IGetProductByIdInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\GetProductById\\IGetProductByIdInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\GetProductById\\IGetProductByIdInputPort.cs",
@@ -3141,7 +3292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 187,
+              "DocumentIndex": 195,
               "Title": "DeleteProductDto.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Entities\\Dtos\\Products\\DeleteProduct\\DeleteProductDto.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\Products\\DeleteProduct\\DeleteProductDto.cs",
@@ -3153,7 +3304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 188,
+              "DocumentIndex": 196,
               "Title": "DeleteProductPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Products\\DeleteProduct\\DeleteProductPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Products\\DeleteProduct\\DeleteProductPresenter.cs",
@@ -3165,7 +3316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 189,
+              "DocumentIndex": 197,
               "Title": "UpdateProductPresenter.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.Presenters\\Products\\UpdateProduct\\UpdateProductPresenter.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Presenters\\Products\\UpdateProduct\\UpdateProductPresenter.cs",
@@ -3177,7 +3328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 190,
+              "DocumentIndex": 198,
               "Title": "DependencyContainer.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.ValidationService.FluentValidation\\DependencyContainer.cs",
               "RelativeDocumentMoniker": "NorthWind.ValidationService.FluentValidation\\DependencyContainer.cs",
@@ -3189,7 +3340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 191,
+              "DocumentIndex": 199,
               "Title": "IUpdateProductOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\UpdateProduct\\IUpdateProductOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\UpdateProduct\\IUpdateProductOutputPort.cs",
@@ -3201,7 +3352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 192,
+              "DocumentIndex": 200,
               "Title": "ICreateProductOutputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\CreateProduct\\ICreateProductOutputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\CreateProduct\\ICreateProductOutputPort.cs",
@@ -3213,7 +3364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 193,
+              "DocumentIndex": 201,
               "Title": "IUpdateProductInputPort.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\UpdateProduct\\IUpdateProductInputPort.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Interfaces\\Products\\UpdateProduct\\IUpdateProductInputPort.cs",
@@ -3225,7 +3376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 194,
+              "DocumentIndex": 202,
               "Title": "AbstractValidatorImplementation.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.ValidationService.FluentValidation\\AbstractValidatorImplementation.cs",
               "RelativeDocumentMoniker": "NorthWind.ValidationService.FluentValidation\\AbstractValidatorImplementation.cs",
@@ -3237,7 +3388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 195,
+              "DocumentIndex": 203,
               "Title": "CollectionValidationRules.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.ValidationService.FluentValidation\\CollectionValidationRules.cs",
               "RelativeDocumentMoniker": "NorthWind.ValidationService.FluentValidation\\CollectionValidationRules.cs",
@@ -3249,7 +3400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 196,
+              "DocumentIndex": 204,
               "Title": "FluentValidationService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.ValidationService.FluentValidation\\FluentValidationService.cs",
               "RelativeDocumentMoniker": "NorthWind.ValidationService.FluentValidation\\FluentValidationService.cs",
@@ -3261,7 +3412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 197,
+              "DocumentIndex": 205,
               "Title": "ValidationRules.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.ValidationService.FluentValidation\\ValidationRules.cs",
               "RelativeDocumentMoniker": "NorthWind.ValidationService.FluentValidation\\ValidationRules.cs",
@@ -3273,7 +3424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 198,
+              "DocumentIndex": 206,
               "Title": "IValidationRules.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Interfaces\\IValidationRules.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Interfaces\\IValidationRules.cs",
@@ -3285,7 +3436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 199,
+              "DocumentIndex": 207,
               "Title": "CreateOrderDetailDtoValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Validators.Entities\\Orders\\CreateOrder\\CreateOrderDetailDtoValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Validators.Entities\\Orders\\CreateOrder\\CreateOrderDetailDtoValidator.cs",
@@ -3297,7 +3448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 201,
+              "DocumentIndex": 209,
               "Title": "UserServiceFake.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.UserServices\\UserServiceFake.cs",
               "RelativeDocumentMoniker": "NorthWind.UserServices\\UserServiceFake.cs",
@@ -3309,7 +3460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 200,
+              "DocumentIndex": 208,
               "Title": "IValidationService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Interfaces\\IValidationService.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Interfaces\\IValidationService.cs",
@@ -3321,7 +3472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 202,
+              "DocumentIndex": 210,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.UserServices\\UserService.cs",
               "RelativeDocumentMoniker": "NorthWind.UserServices\\UserService.cs",
@@ -3333,7 +3484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 203,
+              "DocumentIndex": 211,
               "Title": "CreateOrderMessages.resx",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.UseCases\\Resources\\CreateOrderMessages.resx",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\Resources\\CreateOrderMessages.resx",
@@ -3344,7 +3495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 204,
+              "DocumentIndex": 212,
               "Title": "SpecialOrderSpecification.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Sales.Backend.BusinessObjects\\Specifications\\SpecialOrderSpecification.cs",
               "RelativeDocumentMoniker": "NorthWind.Sales.Backend.BusinessObjects\\Specifications\\SpecialOrderSpecification.cs",
@@ -3356,7 +3507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 205,
+              "DocumentIndex": 213,
               "Title": "DomainLog.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.Backend.Repositories\\Entities\\DomainLog.cs",
               "RelativeDocumentMoniker": "Northwind.Sales.Backend.Repositories\\Entities\\DomainLog.cs",
@@ -3368,7 +3519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 208,
+              "DocumentIndex": 216,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Entities\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "NorthWind.Entities\\Interfaces\\IUserService.cs",
@@ -3380,7 +3531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 207,
+              "DocumentIndex": 215,
               "Title": "IMailService.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Entities\\Interfaces\\IMailService.cs",
               "RelativeDocumentMoniker": "NorthWind.Entities\\Interfaces\\IMailService.cs",
@@ -3392,7 +3543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 206,
+              "DocumentIndex": 214,
               "Title": "Specification.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Entities\\Abstractions\\Specification.cs",
               "RelativeDocumentMoniker": "NorthWind.Entities\\Abstractions\\Specification.cs",
@@ -3404,7 +3555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 209,
+              "DocumentIndex": 217,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\appsettings.Development.json",
@@ -3416,7 +3567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 210,
+              "DocumentIndex": 218,
               "Title": "Northwind.Sales.WebApi.csproj",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
               "RelativeDocumentMoniker": "Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
@@ -3424,12 +3575,11 @@
               "RelativeToolTip": "Northwind.Sales.WebApi\\Northwind.Sales.WebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T05:44:29.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T05:44:29.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 211,
+              "DocumentIndex": 219,
               "Title": "AbstractViewModelValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Abstractions\\AbstractViewModelValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Abstractions\\AbstractViewModelValidator.cs",
@@ -3441,7 +3591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 212,
+              "DocumentIndex": 220,
               "Title": "AbstractModelValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Abstractions\\AbstractModelValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Abstractions\\AbstractModelValidator.cs",
@@ -3453,7 +3603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 213,
+              "DocumentIndex": 221,
               "Title": "IModelValidator.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Interfaces\\IModelValidator.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Interfaces\\IModelValidator.cs",
@@ -3465,7 +3615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 214,
+              "DocumentIndex": 222,
               "Title": "ICollectionValidationRules.cs",
               "DocumentMoniker": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\Interfaces\\ICollectionValidationRules.cs",
               "RelativeDocumentMoniker": "NorthWind.Validation.Entities\\Interfaces\\ICollectionValidationRules.cs",

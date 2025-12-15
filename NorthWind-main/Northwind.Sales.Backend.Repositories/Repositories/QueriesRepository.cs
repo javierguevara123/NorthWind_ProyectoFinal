@@ -2,6 +2,7 @@
 using NorthWind.Sales.Backend.BusinessObjects.ValueObjects;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomerById;
 using NorthWind.Sales.Entities.Dtos.Customers.GetCustomers;
+using NorthWind.Sales.Entities.Dtos.Customers.Login;
 using NorthWind.Sales.Entities.Dtos.Orders.GetOrderById;
 using NorthWind.Sales.Entities.Dtos.Orders.GetOrders;
 using NorthWind.Sales.Entities.Dtos.Products.GetProducts;
@@ -445,6 +446,24 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
                 PageSize = query.PageSize,
                 TotalCount = totalCount
             };
+        }
+
+        public async Task<CustomerCredentialDto?> GetCustomerCredentialsByEmail(string email)
+        {
+            var result = await context.Customers
+                .Where(c => c.Email.ToLower() == email.ToLower())
+                .Select(c => new
+                {
+                    c.Id,
+                    c.Name,
+                    c.Email,
+                    c.HashedPassword
+                })
+                .FirstOrDefaultAsync();
+
+            if (result == null) return null;
+
+            return new CustomerCredentialDto(result.Id, result.Name, result.Email, result.HashedPassword);
         }
     }
 }

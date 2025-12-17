@@ -1,10 +1,11 @@
-﻿using NorthWind.Sales.Backend.DataContexts.EFCore.Configurations;
+﻿
+using NorthWind.Sales.Backend.DataContexts.EFCore.Configurations;
 using NorthWind.Sales.Backend.Repositories.Entities;
 
 namespace NorthWind.Sales.Backend.DataContexts.EFCore.DataContexts;
 
 // Unificamos todo en una sola clase
-internal class NorthWindContext : DbContext
+public class NorthWindContext : DbContext
 {
     private readonly IOptions<DBOptions> _dbOptions;
 
@@ -23,6 +24,8 @@ internal class NorthWindContext : DbContext
     // --- TABLAS DE LOGS (Agregadas aquí) ---
     public DbSet<DomainLog> DomainLogs { get; set; }
     public DbSet<ErrorLog> ErrorLogs { get; set; }
+    public DbSet<TaskEntity> Tasks { get; set; }
+    public DbSet<TaskUser> TaskUsers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

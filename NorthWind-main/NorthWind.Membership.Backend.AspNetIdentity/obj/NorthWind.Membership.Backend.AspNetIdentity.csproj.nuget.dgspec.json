@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj": {}
+    "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj": {}
   },
   "projects": {
-    "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj": {
+    "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
+        "projectUniqueName": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
         "projectName": "NorthWind.Membership.Backend.AspNetIdentity",
-        "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
-        "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
-        "outputPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\obj\\",
+        "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\NorthWind.Membership.Backend.AspNetIdentity.csproj",
+        "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+        "outputPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.AspNetIdentity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BAR KARAOKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,16 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Movil\\Northwind-Movil\\NorthWind.Packages": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Web\\Northwind\\NorthWind.Packages": {},
+          "C:\\aplicacionesmoviles\\aplicacionesmoviles\\NorthWind-main\\NorthWind.Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj": {
-                "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj"
+              "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj": {
+                "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj"
               }
             }
           }
@@ -87,24 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj": {
+    "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
+        "projectUniqueName": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
         "projectName": "NorthWind.Membership.Backend.Core",
-        "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
-        "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
-        "outputPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\obj\\",
+        "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\NorthWind.Membership.Backend.Core.csproj",
+        "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+        "outputPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Backend.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BAR KARAOKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,19 +112,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Movil\\Northwind-Movil\\NorthWind.Packages": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Web\\Northwind\\NorthWind.Packages": {},
+          "C:\\aplicacionesmoviles\\aplicacionesmoviles\\NorthWind-main\\NorthWind.Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj": {
-                "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj"
+              "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj": {
+                "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj"
               },
-              "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj": {
-                "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj"
+              "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj": {
+                "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj"
               }
             }
           }
@@ -170,24 +168,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj": {
+    "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
+        "projectUniqueName": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
         "projectName": "NorthWind.Membership.Entities",
-        "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
-        "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
-        "outputPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\obj\\",
+        "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
+        "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+        "outputPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Membership.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BAR KARAOKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -196,16 +194,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Movil\\Northwind-Movil\\NorthWind.Packages": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Web\\Northwind\\NorthWind.Packages": {},
+          "C:\\aplicacionesmoviles\\aplicacionesmoviles\\NorthWind-main\\NorthWind.Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj": {
-                "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj"
+              "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj": {
+                "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj"
               }
             }
           }
@@ -247,24 +244,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj": {
+    "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj",
+        "projectUniqueName": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj",
         "projectName": "NorthWind.Result.Entities",
-        "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj",
-        "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
-        "outputPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\obj\\",
+        "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\NorthWind.Result.Entities.csproj",
+        "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+        "outputPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Result.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BAR KARAOKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -273,8 +270,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Movil\\Northwind-Movil\\NorthWind.Packages": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Web\\Northwind\\NorthWind.Packages": {},
+          "C:\\aplicacionesmoviles\\aplicacionesmoviles\\NorthWind-main\\NorthWind.Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -314,24 +310,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj": {
+    "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj",
+        "projectUniqueName": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj",
         "projectName": "NorthWind.Validation.Entities",
-        "projectPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj",
-        "packagesPath": "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\",
-        "outputPath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\obj\\",
+        "projectPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\NorthWind.Validation.Entities.csproj",
+        "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+        "outputPath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.Validation.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BAR KARAOKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -340,8 +336,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Movil\\Northwind-Movil\\NorthWind.Packages": {},
-          "D:\\PROYECTOS_ESCRITORIO\\ProyectoMoviles\\Web\\Northwind\\NorthWind.Packages": {},
+          "C:\\aplicacionesmoviles\\aplicacionesmoviles\\NorthWind-main\\NorthWind.Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -387,7 +382,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

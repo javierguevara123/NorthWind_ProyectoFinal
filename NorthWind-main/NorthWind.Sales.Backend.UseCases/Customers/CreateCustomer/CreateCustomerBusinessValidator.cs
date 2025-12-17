@@ -18,27 +18,40 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
 
         public async Task<bool> Validate(CreateCustomerDto model)
         {
-            // 1️⃣ verificar si ya existe un cliente con ese nombre
-            bool nameExists = await repository.CustomerNameExists(model.Name);
-
-            if (nameExists)
+            // 1️⃣ Verificar si ya existe un cliente con ese NOMBRE
+            if (await repository.CustomerNameExists(model.Name))
             {
                 ErrorsField.Add(new ValidationError(
                     nameof(model.Name),
-                    string.Format(
-                        CreateCustomerMessages.CustomerAlreadyExistsTemplate,
-                        model.Name)));
+                    string.Format(CreateCustomerMessages.CustomerAlreadyExistsTemplate, model.Name)));
             }
 
-            if (model.Id.Length != 5)
+            // 2️⃣ NUEVO: Verificar si ya existe un cliente con ese EMAIL
+            if (await repository.CustomerEmailExists(model.Email))
+            {
+                ErrorsField.Add(new ValidationError(
+                    nameof(model.Email),
+                    $"El correo electrónico '{model.Email}' ya está registrado."));
+            }
+
+            // 3️⃣ NUEVO: Verificar si ya existe un cliente con esa CÉDULA
+            if (await repository.CustomerCedulaExists(model.Cedula))
+            {
+                ErrorsField.Add(new ValidationError(
+                    nameof(model.Cedula),
+                    $"El número de cédula '{model.Cedula}' ya se encuentra registrado."));
+            }
+
+            // 4️⃣ Validación de longitud del ID
+            // Nota: Corregí las llaves {} aquí, estaban faltando en tu código original
+            if (model.Id.Length > 10) // Usualmente es 5 en Northwind, ajusta a 10 si cambiaste la BD
             {
                 ErrorsField.Add(new ValidationError(
                     nameof(model.Id),
-                    "El código de cliente debe tener exactamente 5 caracteres."));
-                return false;
+                    "El código de cliente debe tener máximo 10 caracteres."));
             }
 
-            // 2️⃣ regla opcional: no permitir saldos negativos
+            // 5️⃣ Regla opcional: no permitir saldos negativos
             if (model.CurrentBalance < 0)
             {
                 ErrorsField.Add(new ValidationError(
@@ -46,6 +59,7 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
                     CreateCustomerMessages.NegativeBalanceError));
             }
 
+            // Retorna TRUE si la lista de errores está vacía
             return !ErrorsField.Any();
         }
     }

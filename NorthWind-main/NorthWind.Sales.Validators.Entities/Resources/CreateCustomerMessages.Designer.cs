@@ -70,7 +70,7 @@ namespace NorthWind.Sales.Validators.Entities.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a El Id del cliente no puede exceder los 20 caracteres.
+        ///   Busca una cadena traducida similar a El Id del cliente no puede exceder los 10 caracteres.
         /// </summary>
         internal static string IdMaximumLength {
             get {

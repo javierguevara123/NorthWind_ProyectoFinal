@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.1",
           "NorthWind.Sales.Backend.IoC": "1.0.0",
+          "NorthWind.Sales.Backend.Repositories": "1.0.0",
           "Swashbuckle.AspNetCore": "8.1.2"
         },
         "runtime": {

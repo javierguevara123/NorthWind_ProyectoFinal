@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Vt2Iu/vTDr0=",
+  "dgSpecHash": "Rm8/F79RdhY=",
   "success": true,
-  "projectFilePath": "D:\\SUPLETORIO\\PROYECTO\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\NorthWind.DomainLogs.Entities.csproj",
+  "projectFilePath": "D:\\SUPLETORIO\\ProyectoFinal\\ProyectoFinal\\NorthWind-main\\NorthWind.DomainLogs.Entities\\NorthWind.DomainLogs.Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\BAR KARAOKE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
+    "C:\\Users\\belen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.8\\microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512"
   ],
   "logs": []
 }

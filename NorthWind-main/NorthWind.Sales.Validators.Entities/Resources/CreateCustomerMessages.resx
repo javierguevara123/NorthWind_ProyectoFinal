@@ -121,7 +121,7 @@
     <value>El saldo inicial del cliente no puede ser negativo</value>
   </data>
   <data name="IdMaximumLength" xml:space="preserve">
-    <value>El Id del cliente no puede exceder los 20 caracteres</value>
+    <value>El Id del cliente no puede exceder los 10 caracteres</value>
   </data>
   <data name="IdRequired" xml:space="preserve">
     <value>El Id del cliente es obligatorio</value>

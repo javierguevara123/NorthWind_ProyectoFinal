@@ -45,5 +45,8 @@ namespace NorthWind.Sales.Backend.BusinessObjects.Interfaces.Repositories
         Task<bool> OrderExists(int orderId);
 
         Task<CustomerCredentialDto?> GetCustomerCredentialsByEmail(string email);
+
+        Task<bool> CustomerEmailExists(string email);
+        Task<bool> CustomerCedulaExists(string cedula);
     }
 }

@@ -23,51 +23,49 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
     {
         public async Task Handle(CreateCustomerDto dto)
         {
-            // ✔ Validar autenticación
-            GuardUser.AgainstUnauthenticated(userService);
+            // 1. OMITIR validación de autenticación (Para permitir registro público)
+            // GuardUser.AgainstUnauthenticated(userService);
 
-            // ✔ Validación del DTO
+            // 2. Validación del Modelo
             await GuardModel.AgainstNotValid(modelValidatorHub, dto);
 
-            // ✔ Log inicial
+            // ✅ CORRECCIÓN: Definir usuario seguro para el Log (evita el error NULL en SQL)
+            // Si el usuario no está logueado (registro), usamos su nombre o "Guest".
+            string logUser = !string.IsNullOrWhiteSpace(userService.UserName)
+                ? userService.UserName
+                : (dto.Email ?? "Guest");
+
+            // 3. Log inicial usando la variable segura 'logUser'
             await domainLogger.LogInformation(
                 new DomainLog(
                     CreateCustomerMessages.StartingCustomerCreation,
-                    userService.UserName));
+                    logUser)); // 👈 Cambio aquí
 
-            // ✔ Hashear contraseña (Implementación simple con SHA256)
+            // 4. Hashear contraseña
             string hashedPassword = HashPassword(dto.Password);
 
+            // 5. Procesar Imagen
             byte[]? imageBytes = null;
-
             if (!string.IsNullOrEmpty(dto.ProfilePictureBase64))
             {
                 try
                 {
-                    // Limpiamos el header del base64 si viene del front (ej: "data:image/png;base64,")
-                    var base64Clean = dto.ProfilePictureBase64;
-                    if (base64Clean.Contains(","))
-                    {
-                        base64Clean = base64Clean.Split(',')[1];
-                    }
-
+                    var base64Clean = dto.ProfilePictureBase64.Contains(",")
+                        ? dto.ProfilePictureBase64.Split(',')[1]
+                        : dto.ProfilePictureBase64;
                     imageBytes = Convert.FromBase64String(base64Clean);
                 }
-                catch
-                {
-                    // Si el string no es válido, lo dejamos null o lanzamos error
-                    imageBytes = null;
-                }
+                catch { imageBytes = null; }
             }
 
-            // ✔ Crear entidad de dominio
+            // 6. Crear Entidad
             var customer = new Customer
             {
                 Id = dto.Id,
                 Name = dto.Name,
                 CurrentBalance = dto.CurrentBalance,
-                Email = dto.Email,             // Nuevo
-                Cedula = dto.Cedula,           // Nuevo
+                Email = dto.Email,
+                Cedula = dto.Cedula,
                 HashedPassword = hashedPassword,
                 ProfilePicture = imageBytes
             };
@@ -76,21 +74,19 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
             {
                 domainTransaction.BeginTransaction();
 
-                // ✔ Guardar
                 string generatedId = await repository.CreateCustomer(customer);
                 customer.Id = generatedId;
 
                 await repository.SaveChanges();
 
-                // ✔ Log final
+                // 7. Log Final (Usando también 'logUser')
                 await domainLogger.LogInformation(
                     new DomainLog(
                         string.Format(
                             CreateCustomerMessages.CustomerCreatedTemplate,
                             customer.Id),
-                        userService.UserName));
+                        logUser)); // 👈 Cambio aquí
 
-                // ✔ Enviar al Presenter
                 await outputPort.Handle(customer.Id);
 
                 domainTransaction.CommitTransaction();
@@ -99,12 +95,13 @@ namespace NorthWind.Sales.Backend.UseCases.Customers.CreateCustomer
             {
                 domainTransaction.RollbackTransaction();
 
+                // Log de error (Usando también 'logUser')
                 await domainLogger.LogInformation(
                     new DomainLog(
                         string.Format(
                             CreateCustomerMessages.CustomerCreationCancelledTemplate,
                             customer.Id),
-                        userService.UserName));
+                        logUser)); // 👈 Cambio aquí
 
                 throw;
             }

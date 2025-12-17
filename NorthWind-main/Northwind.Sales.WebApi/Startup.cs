@@ -104,6 +104,8 @@ internal static class Startup
             }
         }
 
+        app.UseTasksUserController();
+        app.UseTasksController();
         app.MapNorthWindSalesEndpoints();
         app.UseCors();
         app.UseAuthentication();

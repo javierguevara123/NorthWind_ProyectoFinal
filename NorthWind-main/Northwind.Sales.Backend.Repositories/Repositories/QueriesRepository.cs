@@ -465,5 +465,19 @@ namespace NorthWind.Sales.Backend.Repositories.Repositories
 
             return new CustomerCredentialDto(result.Id, result.Name, result.Email, result.HashedPassword);
         }
+
+        public async Task<bool> CustomerEmailExists(string email)
+        {
+            // Verifica si hay algún cliente con ese email (ignorando mayúsculas/minúsculas)
+            return await context.Customers
+                .AnyAsync(c => c.Email.ToLower() == email.ToLower());
+        }
+
+        public async Task<bool> CustomerCedulaExists(string cedula)
+        {
+            // Verifica si hay algún cliente con esa cédula
+            return await context.Customers
+                .AnyAsync(c => c.Cedula == cedula);
+        }
     }
 }

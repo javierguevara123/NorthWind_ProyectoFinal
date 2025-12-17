@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NorthWind.Sales.Backend.IoC\NorthWind.Sales.Backend.IoC.csproj" />
+    <ProjectReference Include="..\Northwind.Sales.Backend.Repositories\NorthWind.Sales.Backend.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

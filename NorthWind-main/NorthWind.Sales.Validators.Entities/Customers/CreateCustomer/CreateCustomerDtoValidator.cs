@@ -12,7 +12,7 @@ namespace NorthWind.Sales.Validators.Entities.Customers.CreateCustomer
         {
             AddRuleFor(c => c.Id)
                 .NotEmpty(CreateCustomerMessages.IdRequired)
-                .MaximumLength(20, CreateCustomerMessages.IdMaximumLength);
+                .MaximumLength(10, CreateCustomerMessages.IdMaximumLength);
 
             AddRuleFor(c => c.Name)
                 .NotEmpty(CreateCustomerMessages.NameRequired)
